@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jekyll build files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Temporary files
+*.tmp
+*.bak
