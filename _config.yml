@@ -1,44 +1,218 @@
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: America/New_York
+
 title: Interview Preparation Guide
-description: Comprehensive guide to cracking technical interviews at FAANG, top startups, and MNCs
-remote_theme: just-the-docs/just-the-docs@v0.10.0
+tagline: Crack FAANG & Top Tech Interviews
+description: >-
+  Comprehensive guide with 120+ topics covering DSA, System Design,
+  HR rounds, Behavioral interviews, and more.
 
-url: https://shubhu-io.github.io
-baseurl: /interview-preparation-guide
+url: "https://shubhu-io.github.io"
+baseurl: "/interview-preparation-guide"
 
-color_scheme: dark
+github:
+  username: shubhu-io
 
-aux_links:
-  "GitHub":
-    - "https://github.com/shubhu-io/interview-preparation-guide"
+social:
+  name: Shubh
+  links:
+    - https://github.com/shubhu-io
 
-nav_sort: case_insensitive
+avatar: "/commons/avatar.jpg"
+toc: true
+theme_mode: # light or dark
 
-heading_anchors: true
+paginate: 10
 
-back_to_top: true
-back_to_top_text: "Back to top"
+pwa:
+  enabled: true
+  cache:
+    enabled: true
 
-footer_content: >-
-  Comprehensive interview preparation resource. Contributed by the community.
+comments:
+  provider: # giscus
 
-search_enabled: true
-search.heading_level: 3
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
-callouts:
-  warning:
-    title: Warning
-    color: yellow
-  note:
-    title: Note
-    color: blue
-  tip:
-    title: Tip
-    color: green
-  danger:
-    title: Danger
-    color: red
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
 
 exclude:
-  - node_modules/
-  - .git/
-  - "Folder *"
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - "*.config.js"
+  - "package*.json"
+  - 01-Resume-ATS
+  - 02-Company-Research
+  - 03-Resume-Screening
+  - 04-Portfolio
+  - 05-LinkedIn
+  - 06-Cover-Letter
+  - 07-Online-Assessment
+  - 08-Aptitude
+  - 09-Quantitative-Aptitude
+  - 10-Logical-Reasoning
+  - 11-Verbal-Ability
+  - 12-English-Grammar
+  - 13-Reading-Comprehension
+  - 14-Data-Interpretation
+  - 15-Puzzle-Solving
+  - 16-Psychometric-Test
+  - 17-Coding-Rounds
+  - 18-Live-Coding
+  - 19-Pair-Programming
+  - 20-Machine-Coding
+  - 21-Whiteboard-Coding
+  - 22-Debugging
+  - 23-Code-Review
+  - 24-Competitive-Programming
+  - 25-DSA
+  - 26-SQL
+  - 27-Python
+  - 28-Java
+  - 29-JavaScript
+  - 30-CPP
+  - 31-CS
+  - 32-Operating-System
+  - 33-DBMS
+  - 34-Computer-Networks
+  - 35-OOP
+  - 36-Software-Engineering
+  - 37-Compiler-Design
+  - 38-Digital-Logic
+  - 39-Computer-Architecture
+  - 40-Linux
+  - 41-Databases
+  - 42-System-Design
+  - 43-API-Design
+  - 44-Distributed-Systems
+  - 45-Cloud-Computing
+  - 46-AWS
+  - 47-Azure
+  - 48-Google-Cloud
+  - 49-DevOps
+  - 50-Docker
+  - 51-Kubernetes
+  - 52-Terraform
+  - 53-Jenkins
+  - 54-Git
+  - 55-GitHub
+  - 56-CICD
+  - 57-Monitoring
+  - 58-Security
+  - 59-AI
+  - 60-Machine-Learning
+  - 61-Deep-Learning
+  - 62-NLP
+  - 63-Computer-Vision
+  - 64-Generative-AI
+  - 65-LLM
+  - 66-RAG
+  - 67-Prompt-Engineering
+  - 68-AI-Agents
+  - 69-MLOps
+  - 70-Data-Analytics
+  - 71-Excel
+  - 72-Power-BI
+  - 73-Tableau
+  - 74-Statistics
+  - 75-Cybersecurity
+  - 76-Networking
+  - 77-SRE
+  - 78-QA-Automation
+  - 79-Testing
+  - 80-Mobile-Development
+  - 81-Web-Development
+  - 82-Backend
+  - 83-Frontend
+  - 84-Full-Stack
+  - 85-HR-Interview
+  - 86-Behavioral-Interview
+  - 87-STAR-Method
+  - 88-Leadership
+  - 89-Communication
+  - 90-Group-Discussion
+  - 91-Presentation
+  - 92-Client-Round
+  - 93-Managerial-Round
+  - 94-Hiring-Manager-Round
+  - 95-Engineering-Manager-Round
+  - 96-Director-Round
+  - 97-VP-Round
+  - 98-CTO-Round
+  - 99-CEO-Round
+  - 100-Bar-Raiser-Round
+  - 101-Culture-Fit
+  - 102-Team-Fit
+  - 103-Salary-Negotiation
+  - 104-Offer-Discussion
+  - 105-Joining-Preparation
+  - 106-Mock-Interviews
+  - 107-Interview-Experiences
+  - 108-Projects
+  - 109-Certifications
+  - 110-Notes
+  - 111-Cheat-Sheets
+  - 112-Flash-Cards
+  - 113-Daily-Revision
+  - 114-Weekly-Revision
+  - 115-Monthly-Revision
+  - 116-Final-Revision
+  - 117-Previous-Year-Questions
+  - 118-Company-wise-Preparation
+  - 119-Practice-Websites
+  - 120-Resources
