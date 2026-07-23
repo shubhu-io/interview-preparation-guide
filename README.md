@@ -16,6 +16,7 @@ description: "A comprehensive guide with 120+ topics to crack FAANG & top tech i
       <div class="d-flex justify-content-center gap-3 mb-5">
         <a href="/posts/dsa/" class="btn btn-primary btn-lg px-4">Start Learning</a>
         <a href="/progress/" class="btn btn-outline-secondary btn-lg px-4">Track Progress</a>
+        <a href="https://shubhu-io.github.io/interview-preparation-guide/" class="btn btn-outline-primary btn-lg px-4">View Live Site</a>
       </div>
     </div>
   </div>
