@@ -10,7 +10,7 @@ description: "Browse all 120+ interview preparation topics"
 
   <div class="row g-4">
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Getting Started <span class="badge bg-primary ms-2">6</span></h5>
           <ul class="list-unstyled mb-0">
@@ -26,7 +26,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Aptitude & Reasoning <span class="badge bg-info ms-2">10</span></h5>
           <ul class="list-unstyled mb-0">
@@ -39,14 +39,14 @@ description: "Browse all 120+ interview preparation topics"
             <li class="py-1"><a href="/posts/reading-comprehension/">Reading Comprehension</a></li>
             <li class="py-1"><a href="/posts/data-interpretation/">Data Interpretation</a></li>
             <li class="py-1"><a href="/posts/puzzle-solving/">Puzzle Solving</a></li>
-            <li class="py-1"><a href="/posts/psychometric-tests/">Psychometric Tests</a></li>
+            <li class="py-1"><a href="/posts/psychometric-test/">Psychometric Tests</a></li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Coding <span class="badge bg-success ms-2">8</span></h5>
           <ul class="list-unstyled mb-0">
@@ -64,7 +64,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Programming Languages <span class="badge bg-warning ms-2">7</span></h5>
           <ul class="list-unstyled mb-0">
@@ -81,7 +81,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Core CS Fundamentals <span class="badge bg-danger ms-2">10</span></h5>
           <ul class="list-unstyled mb-0">
@@ -101,7 +101,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">System Design <span class="badge bg-secondary ms-2">7</span></h5>
           <ul class="list-unstyled mb-0">
@@ -118,7 +118,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">DevOps & Cloud <span class="badge bg-primary ms-2">10</span></h5>
           <ul class="list-unstyled mb-0">
@@ -138,7 +138,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">AI & Machine Learning <span class="badge bg-info ms-2">11</span></h5>
           <ul class="list-unstyled mb-0">
@@ -159,7 +159,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Data & Analytics <span class="badge bg-success ms-2">10</span></h5>
           <ul class="list-unstyled mb-0">
@@ -179,7 +179,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Development <span class="badge bg-warning ms-2">5</span></h5>
           <ul class="list-unstyled mb-0">
@@ -194,7 +194,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Interview Rounds <span class="badge bg-danger ms-2">16</span></h5>
           <ul class="list-unstyled mb-0">
@@ -220,7 +220,7 @@ description: "Browse all 120+ interview preparation topics"
     </div>
 
     <div class="col-md-6 col-lg-4">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">Preparation <span class="badge bg-secondary ms-2">20</span></h5>
           <ul class="list-unstyled mb-0">

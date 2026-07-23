@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
   topics.forEach(group => {
     const completed = group.items.filter(i => progress[i]).length;
     const pct = Math.round((completed / group.items.length) * 100);
-    let html = '<div class="card border-0 shadow-sm mb-3"><div class="card-header bg-transparent d-flex justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#cat-' + group.cat.replace(/[^a-z0-9]/gi, '') + '">';
+    let html = '<div class="card mb-3"><div class="card-header bg-transparent d-flex justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#cat-' + group.cat.replace(/[^a-z0-9]/gi, '') + '">';
     html += '<h6 class="mb-0 fw-semibold">' + group.cat + '</h6>';
     html += '<span class="badge bg-secondary">' + completed + '/' + group.items.length + '</span>';
     html += '</div><div class="collapse show" id="cat-' + group.cat.replace(/[^a-z0-9]/gi, '') + '"><div class="card-body pt-0"><div class="progress mb-3" style="height:6px"><div class="progress-bar" style="width:' + pct + '%;background:linear-gradient(135deg,#667eea,#764ba2)"></div></div>';

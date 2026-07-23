@@ -1,51 +1,45 @@
-<div class="container py-5">
+<div class="hero-section">
   <div class="row justify-content-center">
-    <div class="col-lg-10 text-center">
-      <h1 class="display-4 fw-bold mb-3" style="background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+    <div class="col-lg-10">
+      <div class="display-4 fw-bold mb-3" style="color:#fff" role="heading" aria-level="2">
         Interview Preparation Guide
-      </h1>
-      <p class="lead text-muted mb-4">
+      </div>
+      <p class="lead mb-4" style="color:rgba(255,255,255,0.85)">
         A comprehensive guide with 120+ topics covering DSA, System Design, HR rounds, Behavioral interviews, and more.
       </p>
-      <div class="d-flex justify-content-center gap-3 mb-5">
-        <a href="/posts/dsa/" class="btn btn-primary btn-lg px-4">Start Learning</a>
-        <a href="/progress/" class="btn btn-outline-secondary btn-lg px-4">Track Progress</a>
-        <a href="https://shubhu-io.github.io/interview-preparation-guide/" class="btn btn-outline-primary btn-lg px-4">View Live Site</a>
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <a href="/posts/dsa/" class="btn btn-primary btn-lg px-4 shadow-sm">Start Learning</a>
+        <a href="/progress/" class="btn btn-outline-light btn-lg px-4">Track Progress</a>
+        <a href="https://shubhu-io.github.io/interview-preparation-guide/" class="btn btn-outline-light btn-lg px-4">View Live Site</a>
       </div>
     </div>
   </div>
+</div>
 
+<div class="container py-5">
   <div class="row g-4 mb-5">
     <div class="col-md-3 col-6">
-      <div class="card text-center border-0 shadow-sm h-100">
-        <div class="card-body">
-          <div class="display-5 fw-bold text-primary">120+</div>
-          <div class="text-muted">Topics</div>
-        </div>
+      <div class="stat-card">
+        <div class="stat-value">120+</div>
+        <div class="stat-label">Topics</div>
       </div>
     </div>
     <div class="col-md-3 col-6">
-      <div class="card text-center border-0 shadow-sm h-100">
-        <div class="card-body">
-          <div class="display-5 fw-bold text-primary">12</div>
-          <div class="text-muted">Categories</div>
-        </div>
+      <div class="stat-card">
+        <div class="stat-value">12</div>
+        <div class="stat-label">Categories</div>
       </div>
     </div>
     <div class="col-md-3 col-6">
-      <div class="card text-center border-0 shadow-sm h-100">
-        <div class="card-body">
-          <div class="display-5 fw-bold text-primary" id="stat-completed">0</div>
-          <div class="text-muted">Completed</div>
-        </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-completed">0</div>
+        <div class="stat-label">Completed</div>
       </div>
     </div>
     <div class="col-md-3 col-6">
-      <div class="card text-center border-0 shadow-sm h-100">
-        <div class="card-body">
-          <div class="display-5 fw-bold text-primary" id="stat-pct">0%</div>
-          <div class="text-muted">Progress</div>
-        </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stat-pct">0%</div>
+        <div class="stat-label">Progress</div>
       </div>
     </div>
   </div>
@@ -69,7 +63,7 @@
   <h3 class="mb-4 text-center">Browse by Category</h3>
   <div class="row g-3 mb-5">
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/resume-ats/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/resume-ats/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Getting Started</h6>
           <small class="text-muted">Resume, ATS, LinkedIn, Portfolio &bull; 6 topics</small>
@@ -77,7 +71,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/aptitude/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/aptitude/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Aptitude & Reasoning</h6>
           <small class="text-muted">Quant, LR, Verbal, Puzzles &bull; 10 topics</small>
@@ -85,7 +79,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/coding-rounds/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/coding-rounds/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Coding</h6>
           <small class="text-muted">Live coding, Pair, Machine &bull; 8 topics</small>
@@ -93,7 +87,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/dsa/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/dsa/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Programming Languages</h6>
           <small class="text-muted">DSA, SQL, Python, Java &bull; 7 topics</small>
@@ -101,7 +95,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/operating-system/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/operating-system/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Core CS Fundamentals</h6>
           <small class="text-muted">OS, DBMS, Networks, Linux &bull; 10 topics</small>
@@ -109,7 +103,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/system-design/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/system-design/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">System Design</h6>
           <small class="text-muted">HLD, LLD, API, Cloud &bull; 7 topics</small>
@@ -117,7 +111,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/devops/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/devops/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">DevOps & Cloud</h6>
           <small class="text-muted">Docker, K8s, CI/CD, AWS &bull; 10 topics</small>
@@ -125,7 +119,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/machine-learning/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/machine-learning/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">AI & Machine Learning</h6>
           <small class="text-muted">ML, DL, NLP, LLM, RAG &bull; 11 topics</small>
@@ -133,7 +127,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/data-analytics/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/data-analytics/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Data & Analytics</h6>
           <small class="text-muted">Analytics, Excel, BI, Stats &bull; 10 topics</small>
@@ -141,7 +135,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/web-development/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/web-development/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Development</h6>
           <small class="text-muted">Web, Mobile, Full Stack &bull; 5 topics</small>
@@ -149,7 +143,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/hr-interview/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/hr-interview/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Interview Rounds</h6>
           <small class="text-muted">HR, Behavioral, Director &bull; 16 topics</small>
@@ -157,7 +151,7 @@
       </a>
     </div>
     <div class="col-md-4 col-sm-6">
-      <a href="/posts/mock-interviews/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+      <a href="/posts/mock-interviews/" class="card h-100 category-link">
         <div class="card-body">
           <h6 class="card-title mb-1">Preparation</h6>
           <small class="text-muted">Mocks, Revision, Resources &bull; 20 topics</small>
@@ -169,7 +163,7 @@
   <h3 class="mb-4 text-center">Quick Links</h3>
   <div class="row g-3 mb-5">
     <div class="col-md-3 col-6">
-      <a href="/posts/cheat-sheets/" class="card text-decoration-none border-0 shadow-sm h-100 text-center quick-link">
+      <a href="/posts/cheat-sheets/" class="card h-100 text-center quick-link">
         <div class="card-body py-4">
           <div class="fs-3 mb-2">&#x1F4DD;</div>
           <div class="fw-semibold">Cheat Sheets</div>
@@ -178,7 +172,7 @@
       </a>
     </div>
     <div class="col-md-3 col-6">
-      <a href="/posts/flash-cards/" class="card text-decoration-none border-0 shadow-sm h-100 text-center quick-link">
+      <a href="/posts/flash-cards/" class="card h-100 text-center quick-link">
         <div class="card-body py-4">
           <div class="fs-3 mb-2">&#x1F517;</div>
           <div class="fw-semibold">Flash Cards</div>
@@ -187,7 +181,7 @@
       </a>
     </div>
     <div class="col-md-3 col-6">
-      <a href="/posts/mock-interviews/" class="card text-decoration-none border-0 shadow-sm h-100 text-center quick-link">
+      <a href="/posts/mock-interviews/" class="card h-100 text-center quick-link">
         <div class="card-body py-4">
           <div class="fs-3 mb-2">&#x1F399;&#xFE0F;</div>
           <div class="fw-semibold">Mock Interviews</div>
@@ -196,7 +190,7 @@
       </a>
     </div>
     <div class="col-md-3 col-6">
-      <a href="/posts/daily-revision/" class="card text-decoration-none border-0 shadow-sm h-100 text-center quick-link">
+      <a href="/posts/daily-revision/" class="card h-100 text-center quick-link">
         <div class="card-body py-4">
           <div class="fs-3 mb-2">&#x1F525;</div>
           <div class="fw-semibold">Daily Revision</div>
@@ -209,7 +203,7 @@
   <h3 class="mb-4 text-center">12-Week Preparation Timeline</h3>
   <div class="row g-3 mb-5">
     <div class="col-md-4 col-sm-6">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <span class="badge bg-primary mb-2">Week 1-2</span>
           <h6>Foundation</h6>
@@ -223,7 +217,7 @@
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <span class="badge bg-info mb-2">Week 3-4</span>
           <h6>Core Fundamentals</h6>
@@ -237,7 +231,7 @@
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <span class="badge bg-success mb-2">Week 5-6</span>
           <h6>Design & DB</h6>
@@ -251,7 +245,7 @@
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <span class="badge bg-warning mb-2">Week 7-8</span>
           <h6>Language Focus</h6>
@@ -265,7 +259,7 @@
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <span class="badge bg-danger mb-2">Week 9-10</span>
           <h6>Cloud & AI</h6>
@@ -279,7 +273,7 @@
       </div>
     </div>
     <div class="col-md-4 col-sm-6">
-      <div class="card border-0 shadow-sm h-100">
+      <div class="card h-100">
         <div class="card-body">
           <span class="badge bg-secondary mb-2">Week 11-12</span>
           <h6>Final Prep</h6>

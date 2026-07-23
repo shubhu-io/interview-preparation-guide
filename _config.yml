@@ -26,7 +26,7 @@ domain                   : &domain "github"
 domain_ext               : &domain_ext "io"
 public_folder            : assets
 port                     : 4000
-og_image                 : '/assets/images/og-interview.png'
+og_image                 : /assets/images/og-interview.svg
 
 ### Owner Information
 name                     : &name "Shubh"
@@ -38,13 +38,13 @@ description              : >-
 
 ## Personalization
 locale                   : "en-US"
-logo                     : /assets/images/logo.png
+logo                     : /assets/images/logo.svg
 logo_link                : [*url, *baseurl]
-teaser                   : '/assets/images/teaser.png'
+teaser                   : /assets/images/og-interview.svg
 
 favicon:
-  ico                    : /favicon.ico
-  apple_touch            : '/assets/images/logo.png'
+  ico                    : /assets/images/favicon.svg
+  apple_touch            : /assets/images/logo.svg
 
 ## UI Settings
 color_mode_default       : auto
