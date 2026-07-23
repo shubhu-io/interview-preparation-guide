@@ -14,33 +14,8 @@ Desktop.ini
 _site/
 .jekyll-cache/
 .jekyll-metadata
-.sass-cache/
 Gemfile.lock
-
-# Node
-node_modules/
-package.json
-package-lock.json
 
 # Temporary files
 *.tmp
 *.bak
-*.log
-
-# Obsidian
-.obsidian/
-*.canvas
-
-# Cursor
-.cursor/
-.devcontainer/
-
-# Other
-docker/
-docker-compose.yml
-Makefile
-Rakefile
-AGENTS.md
-scripts/
-templates/
-test/
