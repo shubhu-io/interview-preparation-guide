@@ -160,7 +160,7 @@ plugins:
 
 ## Pagination
 paginate: 10
-paginate_path: "/pages/:num/"
+paginate_path: "/page/:num/"
 
 ## Nanobar (loading progress)
 nanobar:
