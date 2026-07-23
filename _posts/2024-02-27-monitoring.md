@@ -1,8 +1,9 @@
 ---
 layout: post
-"Monitoring & Observability"
+title: "Monitoring & Observability"
 categories: [DevOps]
-tags: [interview, preparation]
+tags: [monitoring-observability, interview, preparation]
+date: 2024-02-27
 toc: true
 ---
 

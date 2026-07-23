@@ -2,7 +2,7 @@
 layout: post
 title: "QA Automation"
 categories: [Data-Analytics]
-tags: [data-science, analytics]
+tags: [qa-automation, testing, software-engineering]
 date: 2024-03-19
 toc: true
 ---

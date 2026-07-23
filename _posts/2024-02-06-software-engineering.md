@@ -1,8 +1,9 @@
 ---
 layout: post
-"Software Engineering"
+title: "Software Engineering"
 categories: [Core-CS]
-tags: [interview, preparation]
+tags: [software-engineering, interview, preparation]
+date: 2024-02-06
 toc: true
 ---
 

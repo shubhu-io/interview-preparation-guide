@@ -1,8 +1,9 @@
 ---
 layout: post
-"CS Fundamentals"
+title: "CS Fundamentals"
 categories: [Programming]
-tags: [interview, preparation]
+tags: [cs-fundamentals, interview, preparation]
+date: 2024-02-01
 toc: true
 ---
 

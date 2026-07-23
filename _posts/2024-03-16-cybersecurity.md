@@ -2,7 +2,7 @@
 layout: post
 title: "Cybersecurity"
 categories: [Data-Analytics]
-tags: [data-science, analytics]
+tags: [cybersecurity, security, networking]
 date: 2024-03-16
 toc: true
 ---

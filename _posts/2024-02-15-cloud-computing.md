@@ -1,8 +1,9 @@
 ---
 layout: post
-"Cloud Computing"
+title: "Cloud Computing"
 categories: [System-Design]
-tags: [interview, preparation]
+tags: [cloud-computing, interview, preparation]
+date: 2024-02-15
 toc: true
 ---
 

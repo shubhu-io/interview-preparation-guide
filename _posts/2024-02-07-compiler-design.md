@@ -1,8 +1,9 @@
 ---
 layout: post
-"Compiler Design"
+title: "Compiler Design"
 categories: [Core-CS]
-tags: [interview, preparation]
+tags: [compiler-design, interview, preparation]
+date: 2024-02-07
 toc: true
 ---
 

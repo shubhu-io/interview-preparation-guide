@@ -2,7 +2,7 @@
 layout: post
 title: "Networking"
 categories: [Data-Analytics]
-tags: [data-science, analytics]
+tags: [networking, computer-networks, security]
 date: 2024-03-17
 toc: true
 ---

@@ -1,8 +1,9 @@
 ---
 layout: post
-"API Design"
+title: "API Design"
 categories: [System-Design]
-tags: [interview, preparation]
+tags: [api-design, interview, preparation]
+date: 2024-02-13
 toc: true
 ---
 

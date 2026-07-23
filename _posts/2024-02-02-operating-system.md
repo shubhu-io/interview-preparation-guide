@@ -1,8 +1,9 @@
 ---
 layout: post
-"Operating System"
+title: "Operating System"
 categories: [Core-CS]
-tags: [interview, preparation]
+tags: [operating-system, interview, preparation]
+date: 2024-02-02
 toc: true
 ---
 

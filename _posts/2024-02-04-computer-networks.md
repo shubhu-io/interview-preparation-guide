@@ -1,8 +1,9 @@
 ---
 layout: post
-"Computer Networks"
+title: "Computer Networks"
 categories: [Core-CS]
-tags: [interview, preparation]
+tags: [computer-networks, interview, preparation]
+date: 2024-02-04
 toc: true
 ---
 

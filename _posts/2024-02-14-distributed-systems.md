@@ -1,8 +1,9 @@
 ---
 layout: post
-"Distributed Systems"
+title: "Distributed Systems"
 categories: [System-Design]
-tags: [interview, preparation]
+tags: [distributed-systems, interview, preparation]
+date: 2024-02-14
 toc: true
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: post
-"Terraform"
+title: "Terraform"
 categories: [DevOps]
-tags: [interview, preparation]
+tags: [terraform, interview, preparation]
+date: 2024-02-22
 toc: true
 ---
 

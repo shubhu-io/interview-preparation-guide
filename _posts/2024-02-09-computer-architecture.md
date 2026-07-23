@@ -1,8 +1,9 @@
 ---
 layout: post
-"Computer Architecture"
+title: "Computer Architecture"
 categories: [Core-CS]
-tags: [interview, preparation]
+tags: [computer-architecture, interview, preparation]
+date: 2024-02-09
 toc: true
 ---
 

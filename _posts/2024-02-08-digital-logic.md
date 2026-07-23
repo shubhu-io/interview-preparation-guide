@@ -1,8 +1,9 @@
 ---
 layout: post
-"Digital Logic"
+title: "Digital Logic"
 categories: [Core-CS]
-tags: [interview, preparation]
+tags: [digital-logic, interview, preparation]
+date: 2024-02-08
 toc: true
 ---
 

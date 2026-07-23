@@ -1,8 +1,9 @@
 ---
 layout: post
-"Databases"
+title: "Databases"
 categories: [Core-CS]
-tags: [interview, preparation]
+tags: [databases, interview, preparation]
+date: 2024-02-11
 toc: true
 ---
 

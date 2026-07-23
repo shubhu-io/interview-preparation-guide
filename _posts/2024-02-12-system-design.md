@@ -1,8 +1,9 @@
 ---
 layout: post
-"System Design"
+title: "System Design"
 categories: [System-Design]
-tags: [interview, preparation]
+tags: [system-design, interview, preparation]
+date: 2024-02-12
 toc: true
 ---
 

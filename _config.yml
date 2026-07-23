@@ -20,7 +20,7 @@ social:
   links:
     - https://github.com/shubhu-io
 
-avatar: "/commons/avatar.jpg"
+# avatar: "/commons/avatar.jpg"  # Add your avatar image to commons/ directory
 toc: true
 theme_mode: # light or dark
 

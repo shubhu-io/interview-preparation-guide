@@ -1,8 +1,9 @@
 ---
 layout: post
-"Machine Learning"
+title: "Machine Learning"
 categories: [AI-ML]
-tags: [interview, preparation]
+tags: [machine-learning, ai, interview, preparation]
+date: 2024-03-01
 toc: true
 ---
 

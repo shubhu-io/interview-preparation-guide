@@ -1,8 +1,9 @@
 ---
 layout: post
-"Google Cloud"
+title: "Google Cloud"
 categories: [System-Design]
-tags: [interview, preparation]
+tags: [google-cloud, interview, preparation]
+date: 2024-02-18
 toc: true
 ---
 

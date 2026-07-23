@@ -1,8 +1,9 @@
 ---
 layout: post
-"Kubernetes"
+title: "Kubernetes"
 categories: [DevOps]
-tags: [interview, preparation]
+tags: [kubernetes, interview, preparation]
+date: 2024-02-21
 toc: true
 ---
 
