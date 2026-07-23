@@ -11,7 +11,7 @@ github_user              : &github_user "shubhu-io"
 repository_name          : &github_repository "interview-preparation-guide"
 repository               : [*github_user, "/", *github_repository]
 local_repo               : &local_repo "interview-preparation-guide"
-branch                   : &branch "main"
+branch                   : &branch "master"
 
 ## Site Information
 title                    : &title "Interview Preparation Guide"
@@ -74,7 +74,7 @@ sidebar:
 ## Author
 author:
   name                   : *name
-  avatar                 : ""
+  avatar                 : false
   bio                    : "Interview preparation guide with 120+ topics"
   location               : ""
   github_username        : *github_user
@@ -135,19 +135,6 @@ defaults:
 
   - scope:
       path: pages/_posts
-    values:
-      layout: article
-      post_type: standard
-      index: false
-      sidebar: true
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-
-  - scope:
-      path: _posts
     values:
       layout: article
       post_type: standard
