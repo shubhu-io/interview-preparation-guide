@@ -216,3 +216,4 @@ exclude:
   - Makefile
   - Rakefile
   - AGENTS.md
+  - vendor
