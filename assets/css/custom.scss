@@ -128,6 +128,23 @@ a:hover {
   background: #a1a1a1;
 }
 
+/* Navbar fixes */
+.navbar-home-links.d-none {
+  display: inline-flex !important;
+}
+.site-title-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.navbar-mobile-quicklinks__chip {
+  white-space: nowrap;
+}
+.navbar-mobile-quicklinks__list {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .display-4 {
