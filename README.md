@@ -1,180 +1,301 @@
-# Interview Preparation Repository
-
-> A comprehensive, production-ready guide to cracking technical interviews at FAANG, top startups, MNCs, and government organizations.
-
+---
+layout: default
+title: "Interview Preparation Guide"
+description: "A comprehensive guide with 120+ topics to crack FAANG & top tech interviews."
 ---
 
-## Table of Contents
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 text-center">
+      <h1 class="display-4 fw-bold mb-3" style="background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+        Interview Preparation Guide
+      </h1>
+      <p class="lead text-muted mb-4">
+        A comprehensive guide with 120+ topics covering DSA, System Design, HR rounds, Behavioral interviews, and more.
+      </p>
+      <div class="d-flex justify-content-center gap-3 mb-5">
+        <a href="/posts/dsa/" class="btn btn-primary btn-lg px-4">Start Learning</a>
+        <a href="/progress/" class="btn btn-outline-secondary btn-lg px-4">Track Progress</a>
+      </div>
+    </div>
+  </div>
 
-| # | Folder | Description |
-|---|--------|-------------|
-| 01 | [Resume & ATS](01-Resume-ATS/) | Resume building, ATS optimization, formatting |
-| 02 | [Company Research](02-Company-Research/) | Researching target companies |
-| 03 | [Resume Screening](03-Resume-Screening/) | Understanding resume screening process |
-| 04 | [Portfolio](04-Portfolio/) | Building a strong portfolio |
-| 05 | [LinkedIn](05-LinkedIn/) | LinkedIn profile optimization |
-| 06 | [Cover Letter](06-Cover-Letter/) | Writing effective cover letters |
-| 07 | [Online Assessment](07-Online-Assessment/) | OA preparation strategies |
-| 08 | [Aptitude](08-Aptitude/) | General aptitude preparation |
-| 09 | [Quantitative Aptitude](09-Quantitative-Aptitude/) | Math and quantitative problems |
-| 10 | [Logical Reasoning](10-Logical-Reasoning/) | Logical reasoning patterns |
-| 11 | [Verbal Ability](11-Verbal-Ability/) | Verbal ability and comprehension |
-| 12 | [English Grammar](12-English-Grammar/) | Grammar fundamentals |
-| 13 | [Reading Comprehension](13-Reading-Comprehension/) | RC passages and strategies |
-| 14 | [Data Interpretation](14-Data-Interpretation/) | Charts, graphs, and data analysis |
-| 15 | [Puzzle Solving](15-Puzzle-Solving/) | Brain teasers and logic puzzles |
-| 16 | [Psychometric Test](16-Psychometric-Test/) | Personality and aptitude tests |
-| 17 | [Coding Rounds](17-Coding-Rounds/) | Coding interview preparation |
-| 18 | [Live Coding](18-Live-Coding/) | Real-time coding sessions |
-| 19 | [Pair Programming](19-Pair-Programming/) | Collaborative coding |
-| 20 | [Machine Coding](20-Machine-Coding/) | Object-oriented design coding |
-| 21 | [Whiteboard Coding](21-Whiteboard-Coding/) | Whiteboard interview techniques |
-| 22 | [Debugging](22-Debugging/) | Bug identification and fixing |
-| 23 | [Code Review](23-Code-Review/) | Code review skills |
-| 24 | [Competitive Programming](24-Competitive-Programming/) | CP strategies and patterns |
-| 25 | [DSA](25-DSA/) | Data Structures & Algorithms |
-| 26 | [SQL](26-SQL/) | SQL queries and optimization |
-| 27 | [Python](27-Python/) | Python programming |
-| 28 | [Java](28-Java/) | Java programming |
-| 29 | [JavaScript](29-JavaScript/) | JavaScript programming |
-| 30 | [C++](30-CPP/) | C++ programming |
-| 31 | [Core CS](31-CS/) | Core computer science fundamentals |
-| 32 | [Operating System](32-Operating-System/) | OS concepts and questions |
-| 33 | [DBMS](33-DBMS/) | Database management systems |
-| 34 | [Computer Networks](34-Computer-Networks/) | Networking fundamentals |
-| 35 | [OOP](35-OOP/) | Object-Oriented Programming |
-| 36 | [Software Engineering](36-Software-Engineering/) | SE principles and practices |
-| 37 | [Compiler Design](37-Compiler-Design/) | Compiler concepts |
-| 38 | [Digital Logic](38-Digital-Logic/) | Digital logic and design |
-| 39 | [Computer Architecture](39-Computer-Architecture/) | Architecture and organization |
-| 40 | [Linux](40-Linux/) | Linux administration and commands |
-| 41 | [Databases](41-Databases/) | Database technologies |
-| 42 | [System Design](42-System-Design/) | HLD and LLD |
-| 43 | [API Design](43-API-Design/) | REST, GraphQL, gRPC |
-| 44 | [Distributed Systems](44-Distributed-Systems/) | Distributed architecture |
-| 45 | [Cloud Computing](45-Cloud-Computing/) | Cloud fundamentals |
-| 46 | [AWS](46-AWS/) | Amazon Web Services |
-| 47 | [Azure](47-Azure/) | Microsoft Azure |
-| 48 | [Google Cloud](48-Google-Cloud/) | Google Cloud Platform |
-| 49 | [DevOps](49-DevOps/) | DevOps practices and tools |
-| 50 | [Docker](50-Docker/) | Container technology |
-| 51 | [Kubernetes](51-Kubernetes/) | Container orchestration |
-| 52 | [Terraform](52-Terraform/) | Infrastructure as Code |
-| 53 | [Jenkins](53-Jenkins/) | CI/CD with Jenkins |
-| 54 | [Git](54-Git/) | Version control |
-| 55 | [GitHub](55-GitHub/) | GitHub collaboration |
-| 56 | [CI/CD](56-CICD/) | Continuous Integration/Delivery |
-| 57 | [Monitoring](57-Monitoring/) | Observability and monitoring |
-| 58 | [Security](58-Security/) | Application security |
-| 59 | [AI](59-AI/) | Artificial Intelligence |
-| 60 | [Machine Learning](60-Machine-Learning/) | ML algorithms and practice |
-| 61 | [Deep Learning](61-Deep-Learning/) | Neural networks |
-| 62 | [NLP](62-NLP/) | Natural Language Processing |
-| 63 | [Computer Vision](63-Computer-Vision/) | CV fundamentals |
-| 64 | [Generative AI](64-Generative-AI/) | GenAI concepts |
-| 65 | [LLM](65-LLM/) | Large Language Models |
-| 66 | [RAG](66-RAG/) | Retrieval Augmented Generation |
-| 67 | [Prompt Engineering](67-Prompt-Engineering/) | Prompt design |
-| 68 | [AI Agents](68-AI-Agents/) | Autonomous AI agents |
-| 69 | [MLOps](69-MLOps/) | ML operations |
-| 70 | [Data Analytics](70-Data-Analytics/) | Data analysis |
-| 71 | [Excel](71-Excel/) | Advanced Excel |
-| 72 | [Power BI](72-Power-BI/) | Business intelligence |
-| 73 | [Tableau](73-Tableau/) | Data visualization |
-| 74 | [Statistics](74-Statistics/) | Statistical concepts |
-| 75 | [Cybersecurity](75-Cybersecurity/) | Security fundamentals |
-| 76 | [Networking](76-Networking/) | Network administration |
-| 77 | [SRE](77-SRE/) | Site Reliability Engineering |
-| 78 | [QA Automation](78-QA-Automation/) | Test automation |
-| 79 | [Testing](79-Testing/) | Software testing |
-| 80 | [Mobile Development](80-Mobile-Development/) | iOS, Android, Flutter |
-| 81 | [Web Development](81-Web-Development/) | Web technologies |
-| 82 | [Backend](82-Backend/) | Backend development |
-| 83 | [Frontend](83-Frontend/) | Frontend development |
-| 84 | [Full Stack](84-Full-Stack/) | Full stack development |
-| 85 | [HR Interview](85-HR-Interview/) | HR round preparation |
-| 86 | [Behavioral Interview](86-Behavioral-Interview/) | Behavioral questions |
-| 87 | [STAR Method](87-STAR-Method/) | STAR technique |
-| 88 | [Leadership](88-Leadership/) | Leadership principles |
-| 89 | [Communication](89-Communication/) | Communication skills |
-| 90 | [Group Discussion](90-Group-Discussion/) | GD preparation |
-| 91 | [Presentation](91-Presentation/) | Presentation skills |
-| 92 | [Client Round](92-Client-Round/) | Client-facing interviews |
-| 93 | [Managerial Round](93-Managerial-Round/) | Manager interview prep |
-| 94 | [Hiring Manager Round](94-Hiring-Manager-Round/) | HM interview prep |
-| 95 | [Engineering Manager Round](95-Engineering-Manager-Round/) | EM interview prep |
-| 96 | [Director Round](96-Director-Round/) | Director-level prep |
-| 97 | [VP Round](97-VP-Round/) | VP-level prep |
-| 98 | [CTO Round](98-CTO-Round/) | CTO-level prep |
-| 99 | [CEO Round](99-CEO-Round/) | CEO-level prep |
-| 100 | [Bar Raiser Round](100-Bar-Raiser-Round/) | Amazon bar raiser |
-| 101 | [Culture Fit](101-Culture-Fit/) | Culture alignment |
-| 102 | [Team Fit](102-Team-Fit/) | Team compatibility |
-| 103 | [Salary Negotiation](103-Salary-Negotiation/) | Compensation negotiation |
-| 104 | [Offer Discussion](104-Offer-Discussion/) | Evaluating offers |
-| 105 | [Joining Preparation](105-Joining-Preparation/) | Pre-joining checklist |
-| 106 | [Mock Interviews](106-Mock-Interviews/) | Practice interviews |
-| 107 | [Interview Experiences](107-Interview-Experiences/) | Real interview stories |
-| 108 | [Projects](108-Projects/) | Portfolio projects |
-| 109 | [Certifications](109-Certifications/) | Valuable certifications |
-| 110 | [Notes](110-Notes/) | Personal notes |
-| 111 | [Cheat Sheets](111-Cheat-Sheets/) | Quick reference guides |
-| 112 | [Flash Cards](112-Flash-Cards/) | Quick review cards |
-| 113 | [Daily Revision](113-Daily-Revision/) | Daily study plan |
-| 114 | [Weekly Revision](114-Weekly-Revision/) | Weekly study plan |
-| 115 | [Monthly Revision](115-Monthly-Revision/) | Monthly study plan |
-| 116 | [Final Revision](116-Final-Revision/) | Last-minute revision |
-| 117 | [Previous Year Questions](117-Previous-Year-Questions/) | PYQ collection |
-| 118 | [Company-wise Preparation](118-Company-wise-Preparation/) | Company-specific prep |
-| 119 | [Practice Websites](119-Practice-Websites/) | Online platforms |
-| 120 | [Resources](120-Resources/) | Learning resources |
+  <div class="row g-4 mb-5">
+    <div class="col-md-3 col-6">
+      <div class="card text-center border-0 shadow-sm h-100">
+        <div class="card-body">
+          <div class="display-5 fw-bold text-primary">120+</div>
+          <div class="text-muted">Topics</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <div class="card text-center border-0 shadow-sm h-100">
+        <div class="card-body">
+          <div class="display-5 fw-bold text-primary">12</div>
+          <div class="text-muted">Categories</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <div class="card text-center border-0 shadow-sm h-100">
+        <div class="card-body">
+          <div class="display-5 fw-bold text-primary" id="stat-completed">0</div>
+          <div class="text-muted">Completed</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-6">
+      <div class="card text-center border-0 shadow-sm h-100">
+        <div class="card-body">
+          <div class="display-5 fw-bold text-primary" id="stat-pct">0%</div>
+          <div class="text-muted">Progress</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
----
+  <div class="row justify-content-center mb-5">
+    <div class="col-md-4 text-center">
+      <svg width="160" height="160" id="progress-ring-svg">
+        <circle cx="80" cy="80" r="70" fill="none" stroke="#e9ecef" stroke-width="10"/>
+        <circle cx="80" cy="80" r="70" fill="none" stroke="url(#progressGradientHome)" stroke-width="10" stroke-dasharray="440" stroke-dashoffset="440" stroke-linecap="round" transform="rotate(-90 80 80)" id="progress-ring-circle"/>
+        <defs>
+          <linearGradient id="progressGradientHome" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#667eea"/>
+            <stop offset="100%" style="stop-color:#764ba2"/>
+          </linearGradient>
+        </defs>
+        <text x="80" y="80" text-anchor="middle" dominant-baseline="central" class="display-6 fw-bold" fill="#333" id="progress-ring-text">0%</text>
+      </svg>
+    </div>
+  </div>
 
-## How to Use This Repository
+  <h3 class="mb-4 text-center">Browse by Category</h3>
+  <div class="row g-3 mb-5">
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/resume-ats/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Getting Started</h6>
+          <small class="text-muted">Resume, ATS, LinkedIn, Portfolio &bull; 6 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/aptitude/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Aptitude & Reasoning</h6>
+          <small class="text-muted">Quant, LR, Verbal, Puzzles &bull; 10 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/coding-rounds/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Coding</h6>
+          <small class="text-muted">Live coding, Pair, Machine &bull; 8 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/dsa/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Programming Languages</h6>
+          <small class="text-muted">DSA, SQL, Python, Java &bull; 7 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/operating-system/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Core CS Fundamentals</h6>
+          <small class="text-muted">OS, DBMS, Networks, Linux &bull; 10 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/system-design/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">System Design</h6>
+          <small class="text-muted">HLD, LLD, API, Cloud &bull; 7 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/devops/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">DevOps & Cloud</h6>
+          <small class="text-muted">Docker, K8s, CI/CD, AWS &bull; 10 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/machine-learning/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">AI & Machine Learning</h6>
+          <small class="text-muted">ML, DL, NLP, LLM, RAG &bull; 11 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/data-analytics/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Data & Analytics</h6>
+          <small class="text-muted">Analytics, Excel, BI, Stats &bull; 10 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/web-development/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Development</h6>
+          <small class="text-muted">Web, Mobile, Full Stack &bull; 5 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/hr-interview/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Interview Rounds</h6>
+          <small class="text-muted">HR, Behavioral, Director &bull; 16 topics</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="/posts/mock-interviews/" class="card text-decoration-none border-0 shadow-sm h-100 category-link">
+        <div class="card-body">
+          <h6 class="card-title mb-1">Preparation</h6>
+          <small class="text-muted">Mocks, Revision, Resources &bull; 20 topics</small>
+        </div>
+      </a>
+    </div>
+  </div>
 
-### Preparation Timeline
+  <h3 class="mb-4 text-center">Quick Links</h3>
+  <div class="row g-3 mb-5">
+    <div class="col-md-3 col-6">
+      <a href="/posts/cheat-sheets/" class="card text-decoration-none border-0 shadow-sm h-100 text-center quick-link">
+        <div class="card-body py-4">
+          <div class="fs-3 mb-2">&#x1F4DD;</div>
+          <div class="fw-semibold">Cheat Sheets</div>
+          <small class="text-muted">Quick revision</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3 col-6">
+      <a href="/posts/flash-cards/" class="card text-decoration-none border-0 shadow-sm h-100 text-center quick-link">
+        <div class="card-body py-4">
+          <div class="fs-3 mb-2">&#x1F517;</div>
+          <div class="fw-semibold">Flash Cards</div>
+          <small class="text-muted">Rapid recall</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3 col-6">
+      <a href="/posts/mock-interviews/" class="card text-decoration-none border-0 shadow-sm h-100 text-center quick-link">
+        <div class="card-body py-4">
+          <div class="fs-3 mb-2">&#x1F399;&#xFE0F;</div>
+          <div class="fw-semibold">Mock Interviews</div>
+          <small class="text-muted">Practice questions</small>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3 col-6">
+      <a href="/posts/daily-revision/" class="card text-decoration-none border-0 shadow-sm h-100 text-center quick-link">
+        <div class="card-body py-4">
+          <div class="fs-3 mb-2">&#x1F525;</div>
+          <div class="fw-semibold">Daily Revision</div>
+          <small class="text-muted">Stay sharp</small>
+        </div>
+      </a>
+    </div>
+  </div>
 
-```
-Week 1-2:   Resume, LinkedIn, Portfolio, Company Research
-Week 3-4:   DSA Basics, OS, DBMS, CN fundamentals
-Week 5-6:   System Design, SQL, OOP concepts
-Week 7-8:   Language-specific preparation (Python/Java/JS)
-Week 9-10:  Cloud, DevOps, AI/ML (role-specific)
-Week 11-12: Mock interviews, behavioral prep, salary negotiation
-```
-
-### Difficulty Levels
-
-| Level | Description | Target |
-|-------|-------------|--------|
-| Beginner | Fresh graduates, 0-2 years | TCS, Infosys, Wipro, Cognizant |
-| Intermediate | 2-5 years experience | Mid-tier companies, startups |
-| Advanced | 5-10 years experience | FAANG, top startups |
-| Expert | 10+ years, leadership | Staff+ roles, CTO, VP |
-
----
-
-## Quick Links
-
-- [Cheat Sheets](111-Cheat-Sheets/) - Quick revision for last-minute prep
-- [Flash Cards](112-Flash-Cards/) - Rapid recall practice
-- [Mock Interviews](106-Mock-Interviews/) - Practice with realistic questions
-- [Company-wise](118-Company-wise-Preparation/) - Target specific companies
-- [Projects](108-Projects/) - Build your portfolio
-
----
-
-## Contributing
-
-This repository is designed to be a living document. Feel free to:
-- Add new questions and answers
-- Share interview experiences
-- Improve explanations
-- Add code examples in additional languages
-
----
-
-## License
-
-This repository is open for educational use. Share freely and contribute back.
+  <h3 class="mb-4 text-center">12-Week Preparation Timeline</h3>
+  <div class="row g-3 mb-5">
+    <div class="col-md-4 col-sm-6">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <span class="badge bg-primary mb-2">Week 1-2</span>
+          <h6>Foundation</h6>
+          <ul class="small text-muted mb-0">
+            <li>Resume & ATS</li>
+            <li>LinkedIn Profile</li>
+            <li>Portfolio Building</li>
+            <li>Company Research</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <span class="badge bg-info mb-2">Week 3-4</span>
+          <h6>Core Fundamentals</h6>
+          <ul class="small text-muted mb-0">
+            <li>DSA Basics</li>
+            <li>Operating Systems</li>
+            <li>DBMS</li>
+            <li>Computer Networks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <span class="badge bg-success mb-2">Week 5-6</span>
+          <h6>Design & DB</h6>
+          <ul class="small text-muted mb-0">
+            <li>System Design</li>
+            <li>SQL Mastery</li>
+            <li>OOP Concepts</li>
+            <li>API Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <span class="badge bg-warning mb-2">Week 7-8</span>
+          <h6>Language Focus</h6>
+          <ul class="small text-muted mb-0">
+            <li>Python / Java / JS</li>
+            <li>Coding Practice</li>
+            <li>Live Coding</li>
+            <li>Debugging Skills</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <span class="badge bg-danger mb-2">Week 9-10</span>
+          <h6>Cloud & AI</h6>
+          <ul class="small text-muted mb-0">
+            <li>Cloud (AWS/Azure/GCP)</li>
+            <li>DevOps & Docker</li>
+            <li>AI/ML (role-specific)</li>
+            <li>Kubernetes & CI/CD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="card border-0 shadow-sm h-100">
+        <div class="card-body">
+          <span class="badge bg-secondary mb-2">Week 11-12</span>
+          <h6>Final Prep</h6>
+          <ul class="small text-muted mb-0">
+            <li>Mock Interviews</li>
+            <li>Behavioral / STAR</li>
+            <li>Salary Negotiation</li>
+            <li>Company-specific Prep</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

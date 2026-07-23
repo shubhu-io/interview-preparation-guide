@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
+gem "webrick", "~> 1.7"
 gem "html-proofer", "~> 5.0", group: :test
 
 platforms :windows, :jruby do

@@ -1,218 +1,231 @@
-theme: jekyll-theme-chirpy
+# =============================================================================
+# Interview Preparation Guide - zer0-mistakes Theme Configuration
+# =============================================================================
 
-lang: en
-timezone: America/New_York
+site_configured          : true
+founder                  : "Shubh"
+remote_theme             : "bamr87/zer0-mistakes"
 
-title: Interview Preparation Guide
-tagline: Crack FAANG & Top Tech Interviews
-description: >-
+## GitHub Information
+github_user              : &github_user "shubhu-io"
+repository_name          : &github_repository "interview-preparation-guide"
+repository               : [*github_user, "/", *github_repository]
+local_repo               : &local_repo "interview-preparation-guide"
+branch                   : &branch "main"
+
+## Site Information
+title                    : &title "Interview Preparation Guide"
+title_url                : "/"
+title_icon               : "bi-book"
+subtitle                 : "Crack FAANG & Top Tech Interviews"
+subtitle_icon            : "bi-trophy"
+title_separator          : "|"
+url                      : &url "https://shubhu-io.github.io"
+baseurl                  : &baseurl "/interview-preparation-guide"
+domain                   : &domain "github"
+domain_ext               : &domain_ext "io"
+public_folder            : assets
+port                     : 4000
+og_image                 : '/assets/images/og-interview.png'
+
+### Owner Information
+name                     : &name "Shubh"
+email                    : ""
+description              : >-
   Comprehensive guide with 120+ topics covering DSA, System Design,
-  HR rounds, Behavioral interviews, and more.
+  HR rounds, Behavioral interviews, and more. Track your progress
+  and master every topic for FAANG & top tech interviews.
 
-url: "https://shubhu-io.github.io"
-baseurl: "/interview-preparation-guide"
+## Personalization
+locale                   : "en-US"
+logo                     : /assets/images/logo.png
+logo_link                : [*url, *baseurl]
+teaser                   : '/assets/images/teaser.png'
 
-github:
-  username: shubhu-io
+favicon:
+  ico                    : /favicon.ico
+  apple_touch            : '/assets/images/logo.png'
 
-social:
-  name: Shubh
-  links:
-    - https://github.com/shubhu-io
+## UI Settings
+color_mode_default       : auto
+appearance_panel         : true
+theme_skin               : "air"
 
-# avatar: "/commons/avatar.jpg"  # Add your avatar image to commons/ directory
-toc: true
-theme_mode: # light or dark
+theme_color:
+  main         : "#667eea"
+  secondary    : "#764ba2"
+  blue         : "#667eea"
+  purple       : "#764ba2"
+  green        : "#28a745"
+  red          : "#dc3545"
+  orange       : "#fd7e14"
+  teal         : "#376986"
+  indigo       : "#6610f2"
 
-paginate: 10
+## Navigation Behaviour
+breadcrumbs              : true
+words_per_minute         : 200
+_posts_file_structure    : "year-month-day-title.md"
 
-pwa:
-  enabled: true
-  cache:
-    enabled: true
+sidebar:
+  title                  : "Browse Topics"
+  icon                   : "bi-journal-bookmark"
 
-comments:
-  provider: # giscus
+## Author
+author:
+  name                   : *name
+  avatar                 : ""
+  bio                    : "Interview preparation guide with 120+ topics"
+  location               : ""
+  github_username        : *github_user
+
+## Links
+links:
+  - label: "GitHub"
+    icon: "bi-github"
+    url: "https://github.com/shubhu-io"
+
+## Build Settings
+markdown: kramdown
+permalink: pretty
 
 kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+  input: GFM
+  toc_levels: 1..6
+
+collections_dir: &collections_dir pages
 
 collections:
-  tabs:
+  pages:
     output: true
-    sort_by: order
+    permalink: /:collection/:name/
+  posts:
+    output: true
+    permalink: /posts/:name/
+  docs:
+    output: true
+    title: Documentation
+    icon: bi-journal-text
+    permalink: /:collection/:categories/:name/
 
+## Defaults
 defaults:
   - scope:
       path: ""
-      type: posts
     values:
-      layout: post
-      comments: true
-      toc: true
-      permalink: /posts/:title/
-  - scope:
-      path: _drafts
-    values:
+      layout: root
+      author_profile: false
+      read_time: true
       comments: false
+      share: true
+      related: true
+
   - scope:
-      path: ""
-      type: tabs
+      path: pages
     values:
-      layout: page
-      permalink: /:title/
+      layout: default
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      toc_sticky: true
+      sidebar:
+        nav: categories
+    permalink: /:path/:name/
 
+  - scope:
+      path: pages/_posts
+    values:
+      layout: article
+      post_type: standard
+      index: false
+      sidebar: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  - scope:
+      path: _posts
+    values:
+      layout: article
+      post_type: standard
+      index: false
+      sidebar: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+## Plugins
+plugins:
+  - github-pages
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-redirect-from
+  - jekyll-include-cache
+
+## Pagination
+paginate: 10
+paginate_path: "/pages/:num/"
+
+## Nanobar (loading progress)
+nanobar:
+  enabled       : true
+  color         : "var(--bs-primary)"
+  background    : "transparent"
+  height        : "3px"
+  position      : "navbar"
+  z_index       : 9999
+  steps         : [20, 55, 85, 100]
+  step_delay_ms : 180
+
+## Search
+search_enabled: true
+
+## Mermaid
+mermaid:
+  src: '/assets/vendor/mermaid/mermaid.min.js'
+
+## Sass
 sass:
+  sass_dir: _sass
   style: compressed
+  sourcemap: never
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
+## Copyright
+cr_year: 2024
+cr_entity: *name
+cr_lisense: "MIT"
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+## Sitemap
+sitemap_include: ["html", "xml"]
 
+## Exclude from processing
 exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - docs
-  - tools
-  - README.md
-  - LICENSE
-  - "*.config.js"
-  - "package*.json"
-  - 01-Resume-ATS
-  - 02-Company-Research
-  - 03-Resume-Screening
-  - 04-Portfolio
-  - 05-LinkedIn
-  - 06-Cover-Letter
-  - 07-Online-Assessment
-  - 08-Aptitude
-  - 09-Quantitative-Aptitude
-  - 10-Logical-Reasoning
-  - 11-Verbal-Ability
-  - 12-English-Grammar
-  - 13-Reading-Comprehension
-  - 14-Data-Interpretation
-  - 15-Puzzle-Solving
-  - 16-Psychometric-Test
-  - 17-Coding-Rounds
-  - 18-Live-Coding
-  - 19-Pair-Programming
-  - 20-Machine-Coding
-  - 21-Whiteboard-Coding
-  - 22-Debugging
-  - 23-Code-Review
-  - 24-Competitive-Programming
-  - 25-DSA
-  - 26-SQL
-  - 27-Python
-  - 28-Java
-  - 29-JavaScript
-  - 30-CPP
-  - 31-CS
-  - 32-Operating-System
-  - 33-DBMS
-  - 34-Computer-Networks
-  - 35-OOP
-  - 36-Software-Engineering
-  - 37-Compiler-Design
-  - 38-Digital-Logic
-  - 39-Computer-Architecture
-  - 40-Linux
-  - 41-Databases
-  - 42-System-Design
-  - 43-API-Design
-  - 44-Distributed-Systems
-  - 45-Cloud-Computing
-  - 46-AWS
-  - 47-Azure
-  - 48-Google-Cloud
-  - 49-DevOps
-  - 50-Docker
-  - 51-Kubernetes
-  - 52-Terraform
-  - 53-Jenkins
-  - 54-Git
-  - 55-GitHub
-  - 56-CICD
-  - 57-Monitoring
-  - 58-Security
-  - 59-AI
-  - 60-Machine-Learning
-  - 61-Deep-Learning
-  - 62-NLP
-  - 63-Computer-Vision
-  - 64-Generative-AI
-  - 65-LLM
-  - 66-RAG
-  - 67-Prompt-Engineering
-  - 68-AI-Agents
-  - 69-MLOps
-  - 70-Data-Analytics
-  - 71-Excel
-  - 72-Power-BI
-  - 73-Tableau
-  - 74-Statistics
-  - 75-Cybersecurity
-  - 76-Networking
-  - 77-SRE
-  - 78-QA-Automation
-  - 79-Testing
-  - 80-Mobile-Development
-  - 81-Web-Development
-  - 82-Backend
-  - 83-Frontend
-  - 84-Full-Stack
-  - 85-HR-Interview
-  - 86-Behavioral-Interview
-  - 87-STAR-Method
-  - 88-Leadership
-  - 89-Communication
-  - 90-Group-Discussion
-  - 91-Presentation
-  - 92-Client-Round
-  - 93-Managerial-Round
-  - 94-Hiring-Manager-Round
-  - 95-Engineering-Manager-Round
-  - 96-Director-Round
-  - 97-VP-Round
-  - 98-CTO-Round
-  - 99-CEO-Round
-  - 100-Bar-Raiser-Round
-  - 101-Culture-Fit
-  - 102-Team-Fit
-  - 103-Salary-Negotiation
-  - 104-Offer-Discussion
-  - 105-Joining-Preparation
-  - 106-Mock-Interviews
-  - 107-Interview-Experiences
-  - 108-Projects
-  - 109-Certifications
-  - 110-Notes
-  - 111-Cheat-Sheets
-  - 112-Flash-Cards
-  - 113-Daily-Revision
-  - 114-Weekly-Revision
-  - 115-Monthly-Revision
-  - 116-Final-Revision
-  - 117-Previous-Year-Questions
-  - 118-Company-wise-Preparation
-  - 119-Practice-Websites
-  - 120-Resources
+  - .sass-cache/
+  - .jekyll-cache/
+  - .obsidian/
+  - "*.canvas"
+  - ".cursor/"
+  - ".devcontainer/"
+  - ".github/"
+  - ".vscode/"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - scripts/
+  - "*.sh"
+  - docker/
+  - docker-compose.yml
+  - Makefile
+  - Rakefile
+  - AGENTS.md
