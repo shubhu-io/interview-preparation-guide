@@ -2,6 +2,12 @@
 
 > A comprehensive, production-ready guide to cracking technical interviews at FAANG, top startups, MNCs, and government organizations.
 
+<div align="center">
+  <a href="https://shubhu-io.github.io/interview-preparation-guide/">
+    <img src="https://img.shields.io/badge/View_Live_Site-8A2BE2?style=for-the-badge&logo=githubpages&logoColor=white" alt="View Live Site">
+  </a>
+</div>
+
 ---
 
 ## Table of Contents

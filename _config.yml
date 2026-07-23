@@ -41,4 +41,3 @@ callouts:
 exclude:
   - node_modules/
   - .git/
-  - "Folder *"
