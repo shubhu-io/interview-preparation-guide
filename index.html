@@ -5,55 +5,378 @@ nav_order: 1
 permalink: /
 ---
 
-<div class="lead" markdown="1">
+<div class="hero-section">
 
 # Interview Preparation Guide
 
-A comprehensive, production-ready guide to cracking technical interviews at FAANG, top startups, MNCs, and government organizations.
+<p class="tagline">A comprehensive, production-ready guide to cracking technical interviews at FAANG, top startups, MNCs, and government organizations. Track your progress, follow structured learning paths, and master every topic.</p>
 
 </div>
 
-<div class="category-list" markdown="1">
+<div class="stats-row">
+  <div class="stat-card">
+    <div class="stat-number">120+</div>
+    <div class="stat-label">Topics</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">12</div>
+    <div class="stat-label">Categories</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number" data-stat-completed>0</div>
+    <div class="stat-label">Completed</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number" data-stat-pct>0%</div>
+    <div class="stat-label">Progress</div>
+  </div>
+</div>
 
-## Categories
+<div class="progress-ring-wrap">
+  <svg class="progress-ring" width="130" height="130">
+    <defs>
+      <linearGradient id="progressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#667eea" />
+        <stop offset="100%" style="stop-color:#764ba2" />
+      </linearGradient>
+    </defs>
+    <circle class="progress-ring-bg" cx="65" cy="65" r="54" />
+    <circle class="progress-ring-circle" cx="65" cy="65" r="54" />
+  </svg>
+</div>
 
-| Category | Topics | Description |
-|----------|--------|-------------|
-| [Getting Started](/categories/getting-started/) | 6 | Resume, portfolio, LinkedIn, cover letters |
-| [Aptitude & Reasoning](/categories/aptitude/) | 10 | OA, aptitude, reasoning, verbal, puzzles |
-| [Coding](/categories/coding/) | 8 | Coding rounds, DSA, debugging, competitive programming |
-| [Programming Languages](/categories/programming/) | 6 | SQL, Python, Java, JavaScript, C++, CS fundamentals |
-| [Core CS Fundamentals](/categories/core-cs/) | 10 | OS, DBMS, networks, OOP, Linux, architecture |
-| [System Design](/categories/system-design/) | 7 | System design, API design, distributed systems, cloud |
-| [DevOps & Cloud](/categories/devops/) | 10 | Docker, K8s, CI/CD, monitoring, security |
-| [AI & Machine Learning](/categories/ai-ml/) | 11 | ML, DL, NLP, LLM, RAG, MLOps |
-| [Data & Analytics](/categories/data-analytics/) | 10 | Data analytics, Excel, Power BI, testing |
-| [Development](/categories/development/) | 5 | Mobile, web, backend, frontend, full stack |
-| [Interview Rounds](/categories/interview-rounds/) | 16 | HR, behavioral, STAR, all interview rounds |
-| [Preparation](/categories/preparation/) | 20 | Mock interviews, resources, revision plans |
+---
+
+<div class="section-header">
+  <span class="section-icon">&#x1F4DA;</span>
+  <h2>Categories</h2>
+</div>
+<hr class="section-divider" />
+
+<div class="category-grid" id="home-categories">
+
+  <div class="category-card" style="--card-color: #667eea">
+    <div class="card-header">
+      <span class="card-icon">&#x1F680;</span>
+      <span class="card-title">Getting Started</span>
+      <span class="card-count">6</span>
+    </div>
+    <p class="card-desc">Resume optimization, ATS formatting, portfolio building, LinkedIn, cover letters</p>
+    <a class="card-link" href="/categories/getting-started/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Getting Started">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/6</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #f093fb">
+    <div class="card-header">
+      <span class="card-icon">&#x1F9EE;</span>
+      <span class="card-title">Aptitude & Reasoning</span>
+      <span class="card-count">10</span>
+    </div>
+    <p class="card-desc">Online assessments, quantitative aptitude, logical reasoning, verbal ability, puzzles</p>
+    <a class="card-link" href="/categories/aptitude/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Aptitude & Reasoning">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/10</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #4facfe">
+    <div class="card-header">
+      <span class="card-icon">&#x1F4BB;</span>
+      <span class="card-title">Coding</span>
+      <span class="card-count">8</span>
+    </div>
+    <p class="card-desc">Coding rounds, live coding, pair programming, machine coding, debugging, code review</p>
+    <a class="card-link" href="/categories/coding/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Coding">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/8</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #43e97b">
+    <div class="card-header">
+      <span class="card-icon">&#x2328;&#xFE0F;</span>
+      <span class="card-title">Programming Languages</span>
+      <span class="card-count">7</span>
+    </div>
+    <p class="card-desc">DSA, SQL, Python, Java, JavaScript, C++, CS fundamentals</p>
+    <a class="card-link" href="/categories/programming/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Programming Languages">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/7</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #fa709a">
+    <div class="card-header">
+      <span class="card-icon">&#x1F527;</span>
+      <span class="card-title">Core CS Fundamentals</span>
+      <span class="card-count">10</span>
+    </div>
+    <p class="card-desc">Operating systems, DBMS, computer networks, OOP, Linux, architecture</p>
+    <a class="card-link" href="/categories/core-cs/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Core CS">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/10</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #a18cd1">
+    <div class="card-header">
+      <span class="card-icon">&#x1F3D7;&#xFE0F;</span>
+      <span class="card-title">System Design</span>
+      <span class="card-count">7</span>
+    </div>
+    <p class="card-desc">System design, API design, distributed systems, cloud computing, AWS, Azure, GCP</p>
+    <a class="card-link" href="/categories/system-design/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="System Design">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/7</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #fbc2eb">
+    <div class="card-header">
+      <span class="card-icon">&#x2601;&#xFE0F;</span>
+      <span class="card-title">DevOps & Cloud</span>
+      <span class="card-count">10</span>
+    </div>
+    <p class="card-desc">Docker, Kubernetes, Terraform, Jenkins, Git, CI/CD, monitoring, security</p>
+    <a class="card-link" href="/categories/devops/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="DevOps & Cloud">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/10</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #ff9a9e">
+    <div class="card-header">
+      <span class="card-icon">&#x1F916;</span>
+      <span class="card-title">AI & Machine Learning</span>
+      <span class="card-count">11</span>
+    </div>
+    <p class="card-desc">Machine learning, deep learning, NLP, LLMs, RAG, prompt engineering, MLOps</p>
+    <a class="card-link" href="/categories/ai-ml/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="AI & ML">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/11</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #a1c4fd">
+    <div class="card-header">
+      <span class="card-icon">&#x1F4CA;</span>
+      <span class="card-title">Data & Analytics</span>
+      <span class="card-count">10</span>
+    </div>
+    <p class="card-desc">Data analytics, Excel, Power BI, Tableau, statistics, cybersecurity, testing</p>
+    <a class="card-link" href="/categories/data-analytics/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Data & Analytics">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/10</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #d4fc79">
+    <div class="card-header">
+      <span class="card-icon">&#x1F6E0;&#xFE0F;</span>
+      <span class="card-title">Development</span>
+      <span class="card-count">5</span>
+    </div>
+    <p class="card-desc">Mobile development, web development, backend, frontend, full stack</p>
+    <a class="card-link" href="/categories/development/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Development">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/5</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #96e6a1">
+    <div class="card-header">
+      <span class="card-icon">&#x1F3AF;</span>
+      <span class="card-title">Interview Rounds</span>
+      <span class="card-count">16</span>
+    </div>
+    <p class="card-desc">HR, behavioral, STAR method, all interview rounds from hiring manager to CEO</p>
+    <a class="card-link" href="/categories/interview-rounds/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Interview Rounds">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/16</span>
+    </div>
+  </div>
+
+  <div class="category-card" style="--card-color: #fccb90">
+    <div class="card-header">
+      <span class="card-icon">&#x1F4CB;</span>
+      <span class="card-title">Preparation</span>
+      <span class="card-count">20</span>
+    </div>
+    <p class="card-desc">Mock interviews, salary negotiation, revision plans, cheat sheets, resources</p>
+    <a class="card-link" href="/categories/preparation/">Browse topics &rarr;</a>
+    <div class="progress-bar-wrap" data-progress-category="Preparation">
+      <div class="progress-bar"><div class="progress-fill"></div></div>
+      <span class="progress-text">0/20</span>
+    </div>
+  </div>
 
 </div>
 
-<div class="quick-links" markdown="1">
+---
 
-## Quick Links
+<div class="section-header">
+  <span class="section-icon">&#x26A1;</span>
+  <h2>Quick Links</h2>
+</div>
+<hr class="section-divider" />
 
-- [Cheat Sheets](/posts/cheat-sheets/) - Quick revision for last-minute prep
-- [Flash Cards](/posts/flash-cards/) - Rapid recall practice
-- [Mock Interviews](/posts/mock-interviews/) - Practice with realistic questions
-- [Company-wise](/posts/company-wise-preparation/) - Target specific companies
-- [DSA](/posts/dsa/) - Data structures & algorithms deep-dive
-- [System Design](/posts/system-design/) - HLD & LLD preparation
+<div class="quick-links-grid">
+
+  <a class="quick-link-card" href="/posts/cheat-sheets/">
+    <span class="ql-icon">&#x1F4DD;</span>
+    <div class="ql-text">
+      <div class="ql-title">Cheat Sheets</div>
+      <div class="ql-desc">Quick revision for last-minute prep</div>
+    </div>
+  </a>
+
+  <a class="quick-link-card" href="/posts/flash-cards/">
+    <span class="ql-icon">&#x1F517;</span>
+    <div class="ql-text">
+      <div class="ql-title">Flash Cards</div>
+      <div class="ql-desc">Rapid recall practice</div>
+    </div>
+  </a>
+
+  <a class="quick-link-card" href="/posts/mock-interviews/">
+    <span class="ql-icon">&#x1F399;&#xFE0F;</span>
+    <div class="ql-text">
+      <div class="ql-title">Mock Interviews</div>
+      <div class="ql-desc">Practice with realistic questions</div>
+    </div>
+  </a>
+
+  <a class="quick-link-card" href="/posts/company-wise-preparation/">
+    <span class="ql-icon">&#x1F3E2;</span>
+    <div class="ql-text">
+      <div class="ql-title">Company-wise Prep</div>
+      <div class="ql-desc">Target specific companies</div>
+    </div>
+  </a>
+
+  <a class="quick-link-card" href="/posts/dsa/">
+    <span class="ql-icon">&#x1F517;</span>
+    <div class="ql-text">
+      <div class="ql-title">DSA</div>
+      <div class="ql-desc">Data structures & algorithms deep-dive</div>
+    </div>
+  </a>
+
+  <a class="quick-link-card" href="/posts/system-design/">
+    <span class="ql-icon">&#x1F3D7;&#xFE0F;</span>
+    <div class="ql-text">
+      <div class="ql-title">System Design</div>
+      <div class="ql-desc">HLD & LLD preparation</div>
+    </div>
+  </a>
+
+  <a class="quick-link-card" href="/posts/star-method/">
+    <span class="ql-icon">&#x2B50;</span>
+    <div class="ql-text">
+      <div class="ql-title">STAR Method</div>
+      <div class="ql-desc">Structured behavioral answers</div>
+    </div>
+  </a>
+
+  <a class="quick-link-card" href="/posts/daily-revision/">
+    <span class="ql-icon">&#x1F525;</span>
+    <div class="ql-text">
+      <div class="ql-title">Daily Revision</div>
+      <div class="ql-desc">Stay sharp with daily practice</div>
+    </div>
+  </a>
 
 </div>
 
-## Preparation Timeline
+---
 
-```
-Week 1-2:   Resume, LinkedIn, Portfolio, Company Research
-Week 3-4:   DSA Basics, OS, DBMS, CN fundamentals
-Week 5-6:   System Design, SQL, OOP concepts
-Week 7-8:   Language-specific preparation (Python/Java/JS)
-Week 9-10:  Cloud, DevOps, AI/ML (role-specific)
-Week 11-12: Mock interviews, behavioral prep, salary negotiation
-```
+<div class="timeline-section">
+  <div class="section-header">
+    <span class="section-icon">&#x1F4C5;</span>
+    <h2>12-Week Preparation Timeline</h2>
+  </div>
+  <hr class="section-divider" />
+
+  <div class="timeline-grid">
+
+    <div class="timeline-item">
+      <span class="week-badge" style="background: rgba(102,126,234,0.12); color: #667eea;">Week 1-2</span>
+      <h4>Foundation</h4>
+      <ul>
+        <li>Resume & ATS</li>
+        <li>LinkedIn Profile</li>
+        <li>Portfolio Building</li>
+        <li>Company Research</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <span class="week-badge" style="background: rgba(79,172,254,0.12); color: #4facfe;">Week 3-4</span>
+      <h4>Core Fundamentals</h4>
+      <ul>
+        <li>DSA Basics</li>
+        <li>Operating Systems</li>
+        <li>DBMS</li>
+        <li>Computer Networks</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <span class="week-badge" style="background: rgba(240,147,251,0.12); color: #f093fb;">Week 5-6</span>
+      <h4>Design & DB</h4>
+      <ul>
+        <li>System Design</li>
+        <li>SQL Mastery</li>
+        <li>OOP Concepts</li>
+        <li>API Design</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <span class="week-badge" style="background: rgba(67,233,123,0.12); color: #2f9e44;">Week 7-8</span>
+      <h4>Language Focus</h4>
+      <ul>
+        <li>Python / Java / JS</li>
+        <li>Coding Practice</li>
+        <li>Live Coding</li>
+        <li>Debugging Skills</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <span class="week-badge" style="background: rgba(250,112,154,0.12); color: #fa709a;">Week 9-10</span>
+      <h4>Cloud & AI</h4>
+      <ul>
+        <li>Cloud (AWS/Azure/GCP)</li>
+        <li>DevOps & Docker</li>
+        <li>AI/ML (role-specific)</li>
+        <li>Kubernetes & CI/CD</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item">
+      <span class="week-badge" style="background: rgba(252,203,144,0.15); color: #c77a00;">Week 11-12</span>
+      <h4>Final Prep</h4>
+      <ul>
+        <li>Mock Interviews</li>
+        <li>Behavioral / STAR</li>
+        <li>Salary Negotiation</li>
+        <li>Company-specific Prep</li>
+      </ul>
+    </div>
+
+  </div>
+</div>

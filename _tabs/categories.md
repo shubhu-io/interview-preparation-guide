@@ -5,11 +5,20 @@ nav_order: 3
 permalink: /categories-page/
 ---
 
-# All Categories
+# All Topics
 
-Browse all 120+ interview preparation topics organized by category.
+Browse all 120+ interview preparation topics. Use the search bar to find specific topics or filter by category.
 
-<div class="category-list" markdown="1">
+<div id="category-filter-container">
+
+<div class="filter-bar">
+  <input type="text" id="cat-filter" placeholder="Search all 120+ topics..." class="filter-input" />
+  <div class="filter-chips" id="filter-chips"></div>
+</div>
+
+</div>
+
+<div id="all-topics-list">
 
 ## Getting Started
 - [Resume & ATS Optimization](/posts/resume-ats/)
