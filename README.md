@@ -1,9 +1,3 @@
----
-layout: default
-title: "Interview Preparation Guide"
-description: "A comprehensive guide with 120+ topics to crack FAANG & top tech interviews."
----
-
 <div class="container py-5">
   <div class="row justify-content-center">
     <div class="col-lg-10 text-center">

@@ -157,7 +157,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-redirect-from
   - jekyll-include-cache
-  - jekyll-readme-index
+
 
 ## Pagination
 paginate: 10
