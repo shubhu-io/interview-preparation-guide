@@ -431,7 +431,7 @@ Generate a comprehensive summary."""
 ### Output Format Templates
 ```
 # JSON
-Return as valid JSON: {{"key": "value"}}
+Return as valid JSON: {% raw %}{{"key": "value"}}{% endraw %}
 
 # Markdown
 ## Section
