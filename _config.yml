@@ -11,7 +11,7 @@ github_user              : &github_user "shubhu-io"
 repository_name          : &github_repository "interview-preparation-guide"
 repository               : [*github_user, "/", *github_repository]
 local_repo               : &local_repo "interview-preparation-guide"
-branch                   : &branch "master"
+branch                   : &branch "main"
 
 ## Site Information
 title                    : &title "Interview Preparation Guide"
@@ -26,7 +26,7 @@ domain                   : &domain "github"
 domain_ext               : &domain_ext "io"
 public_folder            : assets
 port                     : 4000
-og_image                 : /assets/images/og-interview.svg
+og_image                 : '/assets/images/og-interview.png'
 
 ### Owner Information
 name                     : &name "Shubh"
@@ -38,13 +38,13 @@ description              : >-
 
 ## Personalization
 locale                   : "en-US"
-logo                     : /assets/images/logo.svg
+logo                     : /assets/images/logo.png
 logo_link                : [*url, *baseurl]
-teaser                   : /assets/images/og-interview.svg
+teaser                   : '/assets/images/teaser.png'
 
 favicon:
-  ico                    : /assets/images/favicon.svg
-  apple_touch            : /assets/images/logo.svg
+  ico                    : /favicon.ico
+  apple_touch            : '/assets/images/logo.png'
 
 ## UI Settings
 color_mode_default       : auto
@@ -74,7 +74,7 @@ sidebar:
 ## Author
 author:
   name                   : *name
-  avatar                 : false
+  avatar                 : ""
   bio                    : "Interview preparation guide with 120+ topics"
   location               : ""
   github_username        : *github_user
@@ -146,6 +146,19 @@ defaults:
       share: true
       related: true
 
+  - scope:
+      path: _posts
+    values:
+      layout: article
+      post_type: standard
+      index: false
+      sidebar: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 ## Plugins
 plugins:
   - github-pages
@@ -158,10 +171,9 @@ plugins:
   - jekyll-redirect-from
   - jekyll-include-cache
 
-
 ## Pagination
 paginate: 10
-paginate_path: "/page/:num/"
+paginate_path: "/pages/:num/"
 
 ## Nanobar (loading progress)
 nanobar:
@@ -217,4 +229,3 @@ exclude:
   - Makefile
   - Rakefile
   - AGENTS.md
-  - vendor

@@ -1340,7 +1340,6 @@ I would approach [aspect] differently next time by [improvement].
             </div>
         </div>"""
         
-        {% raw %}
         return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1359,7 +1358,6 @@ I would approach [aspect] differently next time by [improvement].
         <h1>{self.config.owner_name}</h1>
         <p>{self.config.tagline}</p>
     </header>
-    {% endraw %}
     
     <section id="projects">
         <h2>Projects</h2>

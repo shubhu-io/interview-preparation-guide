@@ -15,7 +15,7 @@ description: "About this Interview Preparation Guide"
       <h3 class="mt-5 mb-3">What's Inside</h3>
       <div class="row g-3 mb-4">
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>Getting Started</h6>
               <p class="small text-muted mb-0">Resume optimization, ATS formatting, LinkedIn, portfolio building</p>
@@ -23,7 +23,7 @@ description: "About this Interview Preparation Guide"
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>Aptitude & Reasoning</h6>
               <p class="small text-muted mb-0">Quantitative, logical reasoning, verbal ability, puzzles</p>
@@ -31,7 +31,7 @@ description: "About this Interview Preparation Guide"
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>Coding & Programming</h6>
               <p class="small text-muted mb-0">DSA, live coding, Python, Java, JavaScript, C++</p>
@@ -39,7 +39,7 @@ description: "About this Interview Preparation Guide"
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>System Design</h6>
               <p class="small text-muted mb-0">HLD, LLD, distributed systems, cloud computing</p>
@@ -47,7 +47,7 @@ description: "About this Interview Preparation Guide"
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>DevOps & Cloud</h6>
               <p class="small text-muted mb-0">Docker, Kubernetes, Terraform, CI/CD, AWS, Azure</p>
@@ -55,7 +55,7 @@ description: "About this Interview Preparation Guide"
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>AI & Machine Learning</h6>
               <p class="small text-muted mb-0">ML, DL, NLP, LLMs, RAG, prompt engineering</p>
@@ -75,7 +75,7 @@ description: "About this Interview Preparation Guide"
       <h3 class="mt-5 mb-3">Role-Based Paths</h3>
       <div class="row g-3">
         <div class="col-md-4">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>SDE / Backend</h6>
               <ul class="small text-muted mb-0">
@@ -88,7 +88,7 @@ description: "About this Interview Preparation Guide"
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>Frontend / Full Stack</h6>
               <ul class="small text-muted mb-0">
@@ -101,7 +101,7 @@ description: "About this Interview Preparation Guide"
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card h-100">
+          <div class="card border-0 shadow-sm h-100">
             <div class="card-body">
               <h6>Data / ML Engineer</h6>
               <ul class="small text-muted mb-0">

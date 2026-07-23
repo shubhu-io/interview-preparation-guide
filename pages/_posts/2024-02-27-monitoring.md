@@ -281,8 +281,8 @@ groups:
         labels:
           severity: critical
         annotations:
-          summary: "High error rate for {% raw %}{{ $labels.service }}{% endraw %}"
-          description: "Error rate is {% raw %}{{ $value | humanizePercentage }}{% endraw %}"
+          summary: "High error rate for {{ $labels.service }}"
+          description: "Error rate is {{ $value | humanizePercentage }}"
       
       - alert: HighLatency
         expr: |
@@ -293,8 +293,8 @@ groups:
         labels:
           severity: warning
         annotations:
-          summary: "High latency for {% raw %}{{ $labels.service }}{% endraw %}"
-          description: "99th percentile latency is {% raw %}{{ $value }}{% endraw %}s"
+          summary: "High latency for {{ $labels.service }}"
+          description: "99th percentile latency is {{ $value }}s"
       
       - alert: ServiceDown
         expr: up == 0
@@ -302,7 +302,7 @@ groups:
         labels:
           severity: critical
         annotations:
-          summary: "Service {% raw %}{{ $labels.job }}{% endraw %} is down"
+          summary: "Service {{ $labels.job }} is down"
 ```
 
 ### Lab 4: Node.js Application Metrics
@@ -539,7 +539,7 @@ awk '/2024-01-01 10:00/,/2024-01-01 11:00/' app.log
       "targets": [
         {
           "expr": "rate(http_requests_total[5m])",
-          "legendFormat": "{% raw %}{{service}}{% endraw %}"
+          "legendFormat": "{{service}}"
         }
       ]
     }
