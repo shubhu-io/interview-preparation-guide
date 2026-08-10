@@ -4,7 +4,13 @@
 
 <div align="center">
   <a href="https://shubhu-io.github.io/interview-preparation-guide/">
-    <img src="https://img.shields.io/badge/View_Live_Site-8A2BE2?style=for-the-badge&logo=githubpages&logoColor=white" alt="View Live Site">
+    <img src="https://img.shields.io/badge/GitHub_Pages-View_Site-8A2BE2?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages">
+  </a>
+  <a href="https://github.com/shubhu-io/interview-preparation-guide/wiki">
+    <img src="https://img.shields.io/badge/GitHub_Wiki-Read_Docs-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Wiki">
+  </a>
+  <a href="https://github.com/shubhu-io/interview-preparation-guide">
+    <img src="https://img.shields.io/badge/Source_Code-View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code">
   </a>
 </div>
 
@@ -163,6 +169,8 @@ Week 11-12: Mock interviews, behavioral prep, salary negotiation
 
 ## Quick Links
 
+- [GitHub Pages](https://shubhu-io.github.io/interview-preparation-guide/) - Browse the full guide as a website
+- [GitHub Wiki](https://github.com/shubhu-io/interview-preparation-guide/wiki) - Topic-by-topic wiki documentation
 - [Cheat Sheets](111-Cheat-Sheets/) - Quick revision for last-minute prep
 - [Flash Cards](112-Flash-Cards/) - Rapid recall practice
 - [Mock Interviews](106-Mock-Interviews/) - Practice with realistic questions
