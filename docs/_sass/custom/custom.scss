@@ -1,0 +1,64 @@
+// custom SCSS (or CSS) goes here
+
+// Typography & readability
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 5rem;
+  }
+}
+
+// Responsive tables
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 6px;
+}
+
+// Code blocks
+.highlighter-rouge pre.highlight {
+  max-height: 34rem;
+  overflow: auto;
+}
+
+// Back to top link
+#back-to-top {
+  display: inline-block;
+  font-size: 0.85rem;
+}
+
+// Theme toggle button in header
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  color: inherit;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  padding: 0.25rem 0.5rem;
+  line-height: 1;
+
+  &:hover {
+    border-color: $link-color;
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+  }
+}
+
+// Better callout styling
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+// Focus states for accessibility
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: 2px;
+}

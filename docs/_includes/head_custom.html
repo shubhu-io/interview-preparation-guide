@@ -1,0 +1,12 @@
+<link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/favicon.svg' | relative_url }}">
+<meta name="theme-color" content="#27262b">
+
+<script>
+  (function () {
+    var stored = null;
+    try { stored = localStorage.getItem('jtd-theme'); } catch (e) {}
+    var href = '{{ "/assets/css/just-the-docs-" | relative_url }}' + (stored === 'light' ? 'light' : 'dark') + '.css';
+    document.querySelector('link[rel="stylesheet"]').setAttribute('href', href);
+  })();
+</script>

@@ -3,6 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 permalink: /
+description: Comprehensive interview preparation guide covering aptitude, coding, system design, AI/ML, DevOps and more for FAANG, startups and MNCs.
 ---
 
 # Interview Preparation Guide
@@ -16,24 +17,22 @@ A comprehensive, production-ready guide to cracking technical interviews at FAAN
 
 ---
 
-## Overview
+## Quick Navigation
 
-This guide covers **120+ topics** across every aspect of interview preparation:
-
-| Category | Topics | Description |
-|----------|--------|-------------|
-| [Getting Started](01-getting-started/) | 6 topics | Resume, portfolio, LinkedIn, cover letters |
-| [Aptitude & Reasoning](02-aptitude/) | 10 topics | OA, aptitude, reasoning, verbal, puzzles |
-| [Coding](03-coding/) | 8 topics | Coding rounds, DSA, debugging, competitive programming |
-| [Programming Languages](04-programming/) | 6 topics | SQL, Python, Java, JavaScript, C++, CS fundamentals |
-| [Core CS Fundamentals](05-core-fundamentals/) | 10 topics | OS, DBMS, networks, OOP, Linux, architecture |
-| [System Design](06-system-design/) | 7 topics | System design, API design, distributed systems, cloud |
-| [DevOps & Cloud](07-devops/) | 10 topics | Docker, K8s, CI/CD, monitoring, security |
-| [AI & Machine Learning](08-ai-ml/) | 11 topics | ML, DL, NLP, LLM, RAG, MLOps |
-| [Data & Analytics](09-data-analytics/) | 10 topics | Data analytics, Excel, Power BI, testing |
-| [Development](10-development/) | 5 topics | Mobile, web, backend, frontend, full stack |
-| [Interview Rounds](11-interview-rounds/) | 16 topics | HR, behavioral, STAR, all interview rounds |
-| [Preparation](12-preparation/) | 20 topics | Mock interviews, resources, revision plans |
+| Area | What you'll find |
+|------|------------------|
+| [Getting Started](01-getting-started/) | Resume, portfolio, LinkedIn, cover letters, preparation roadmap |
+| [Aptitude & Reasoning](02-aptitude/) | Online assessments, quantitative aptitude, logical reasoning, puzzles |
+| [Coding](03-coding/) | Coding rounds, DSA patterns, debugging, competitive programming |
+| [Programming Languages](04-programming/) | SQL, Python, Java, JavaScript, C++ and CS fundamentals |
+| [Core CS Fundamentals](05-core-fundamentals/) | OS, DBMS, networks, OOP, Linux, computer architecture |
+| [System Design](06-system-design/) | System design, API design, distributed systems, cloud architecture |
+| [DevOps & Cloud](07-devops/) | Docker, Kubernetes, CI/CD, monitoring, security |
+| [AI & Machine Learning](08-ai-ml/) | ML, deep learning, NLP, LLMs, RAG, MLOps |
+| [Data & Analytics](09-data-analytics/) | Data analytics, Excel, Power BI, testing |
+| [Development](10-development/) | Mobile, web, backend, frontend, full-stack |
+| [Interview Rounds](11-interview-rounds/) | HR, behavioral, STAR method, every interview round |
+| [Preparation](12-preparation/) | Mock interviews, resources, revision plans, salary negotiation |
 
 ---
 
@@ -61,8 +60,11 @@ Week 11-12: Mock interviews, behavioral prep, salary negotiation
 
 ### Quick Links
 
-- [Cheat Sheets](../111-Cheat-Sheets/) - Quick revision for last-minute prep
-- [Flash Cards](../112-Flash-Cards/) - Rapid recall practice
-- [Mock Interviews](../106-Mock-Interviews/) - Practice with realistic questions
-- [Company-wise](../118-Company-wise-Preparation/) - Target specific companies
-- [Projects](../108-Projects/) - Build your portfolio
+- [Cheat Sheets](12-preparation/cheat-sheets/) - Quick revision for last-minute prep
+- [Flash Cards](12-preparation/flash-cards/) - Rapid recall practice
+- [Mock Interviews](12-preparation/mock-interviews/) - Practice with realistic questions
+- [Company-wise Preparation](12-preparation/company-wise-preparation/) - Target specific companies
+- [Projects](12-preparation/projects/) - Build your portfolio
+
+{: .note }
+> Tip: Open the side navigation to browse all topics, or press **Ctrl/Cmd + K** to search the entire guide.
