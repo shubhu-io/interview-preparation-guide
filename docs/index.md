@@ -21,7 +21,8 @@ A comprehensive, production-ready guide to cracking technical interviews at FAAN
 
 | Area | What you'll find |
 |------|------------------|
-| [Getting Started](01-getting-started/) | Resume, portfolio, LinkedIn, cover letters, preparation roadmap |
+| [Getting Started](01-getting-started/) | Resume, portfolio, LinkedIn, cover letters, job search strategy, career pages, job portals, agencies, types of interviews |
+| [Specialized Domains](13-specialized-domains/) | VLSI, SoC, Electronic Product Design, Embedded/IoT, Drone/UAS, Social & Mobile Analytics, AI/Data Science |
 | [Aptitude & Reasoning](02-aptitude/) | Online assessments, quantitative aptitude, logical reasoning, puzzles |
 | [Coding](03-coding/) | Coding rounds, DSA patterns, debugging, competitive programming |
 | [Programming Languages](04-programming/) | SQL, Python, Java, JavaScript, C++ and CS fundamentals |
