@@ -6,6 +6,11 @@ nav_order: 24
 permalink: /14-topic-library/24-Competitive-Programming/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #24</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # 24 - Competitive Programming: Strategies and Patterns
 

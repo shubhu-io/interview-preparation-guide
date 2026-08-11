@@ -6,6 +6,11 @@ nav_order: 96
 permalink: /14-topic-library/96-Director-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #96</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 96 - Director Round
 

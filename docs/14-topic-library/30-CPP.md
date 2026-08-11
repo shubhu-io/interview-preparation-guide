@@ -6,6 +6,11 @@ nav_order: 30
 permalink: /14-topic-library/30-CPP/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #30</span>
+  <span class="topic-cat">&#128220; &nbsp; Programming Languages</span>
+</div>
+
 {% raw %}
 # 30 - C++: Programming for Interviews
 

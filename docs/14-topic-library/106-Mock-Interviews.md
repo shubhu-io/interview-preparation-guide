@@ -6,6 +6,11 @@ nav_order: 106
 permalink: /14-topic-library/106-Mock-Interviews/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #106</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 106 - Mock Interviews
 

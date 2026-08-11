@@ -6,6 +6,11 @@ nav_order: 82
 permalink: /14-topic-library/82-Backend/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #82</span>
+  <span class="topic-cat">&#128295; &nbsp; Development</span>
+</div>
+
 {% raw %}
 # 82 - Backend Development
 

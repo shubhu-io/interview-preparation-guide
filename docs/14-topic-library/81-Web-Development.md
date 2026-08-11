@@ -6,6 +6,11 @@ nav_order: 81
 permalink: /14-topic-library/81-Web-Development/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #81</span>
+  <span class="topic-cat">&#128295; &nbsp; Development</span>
+</div>
+
 {% raw %}
 # 81 - Web Development
 

@@ -6,6 +6,11 @@ nav_order: 115
 permalink: /14-topic-library/115-Monthly-Revision/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #115</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 115 - Monthly Revision
 

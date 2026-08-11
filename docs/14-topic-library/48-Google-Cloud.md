@@ -6,6 +6,11 @@ nav_order: 48
 permalink: /14-topic-library/48-Google-Cloud/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #48</span>
+  <span class="topic-cat">&#127959;&#65039; &nbsp; System Design & Cloud</span>
+</div>
+
 {% raw %}
 # Google Cloud Platform - Complete Interview Preparation Guide
 

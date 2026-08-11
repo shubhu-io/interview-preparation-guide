@@ -6,6 +6,11 @@ nav_order: 85
 permalink: /14-topic-library/85-HR-Interview/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #85</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 85 - HR Interview
 

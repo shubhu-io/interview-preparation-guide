@@ -6,6 +6,11 @@ nav_order: 41
 permalink: /14-topic-library/41-Databases/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #41</span>
+  <span class="topic-cat">&#9881;&#65039; &nbsp; Core Computer Science</span>
+</div>
+
 {% raw %}
 # Databases — Complete Interview Preparation Guide
 

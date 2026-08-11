@@ -6,6 +6,11 @@ nav_order: 78
 permalink: /14-topic-library/78-QA-Automation/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #78</span>
+  <span class="topic-cat">&#128274; &nbsp; Security, Testing & Networking</span>
+</div>
+
 {% raw %}
 # 78 - QA Automation: Interview Preparation Guide
 

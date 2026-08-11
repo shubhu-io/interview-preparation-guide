@@ -6,6 +6,11 @@ nav_order: 76
 permalink: /14-topic-library/76-Networking/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #76</span>
+  <span class="topic-cat">&#128274; &nbsp; Security, Testing & Networking</span>
+</div>
+
 {% raw %}
 # 76 - Networking: Interview Preparation Guide
 

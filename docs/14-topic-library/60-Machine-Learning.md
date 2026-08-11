@@ -6,6 +6,11 @@ nav_order: 60
 permalink: /14-topic-library/60-Machine-Learning/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #60</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 60 - Machine Learning: Interview Preparation Guide
 

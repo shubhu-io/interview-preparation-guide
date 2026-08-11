@@ -6,6 +6,11 @@ nav_order: 97
 permalink: /14-topic-library/97-VP-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #97</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 97 - VP Round
 

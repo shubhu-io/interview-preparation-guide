@@ -6,6 +6,11 @@ nav_order: 18
 permalink: /14-topic-library/18-Live-Coding/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #18</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # 18 - Live Coding for Interviews
 

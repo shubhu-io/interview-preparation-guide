@@ -6,6 +6,11 @@ nav_order: 75
 permalink: /14-topic-library/75-Cybersecurity/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #75</span>
+  <span class="topic-cat">&#128274; &nbsp; Security, Testing & Networking</span>
+</div>
+
 {% raw %}
 # 75 - Cybersecurity: Interview Preparation Guide
 

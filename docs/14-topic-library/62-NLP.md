@@ -6,6 +6,11 @@ nav_order: 62
 permalink: /14-topic-library/62-NLP/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #62</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 62 - Natural Language Processing (NLP): Interview Preparation Guide
 

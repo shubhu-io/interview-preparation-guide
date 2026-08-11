@@ -6,6 +6,11 @@ nav_order: 19
 permalink: /14-topic-library/19-Pair-Programming/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #19</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # 19 - Pair Programming for Interviews
 

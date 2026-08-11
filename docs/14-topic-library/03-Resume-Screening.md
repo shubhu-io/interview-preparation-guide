@@ -6,6 +6,11 @@ nav_order: 3
 permalink: /14-topic-library/03-Resume-Screening/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #3</span>
+  <span class="topic-cat">&#128196; &nbsp; Resume & Job Search</span>
+</div>
+
 {% raw %}
 # Resume Screening: Understanding the Process
 

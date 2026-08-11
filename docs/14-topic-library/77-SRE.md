@@ -6,6 +6,11 @@ nav_order: 77
 permalink: /14-topic-library/77-SRE/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #77</span>
+  <span class="topic-cat">&#128274; &nbsp; Security, Testing & Networking</span>
+</div>
+
 {% raw %}
 # 77 - SRE (Site Reliability Engineering): Interview Preparation Guide
 

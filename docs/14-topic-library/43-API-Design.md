@@ -6,6 +6,11 @@ nav_order: 43
 permalink: /14-topic-library/43-API-Design/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #43</span>
+  <span class="topic-cat">&#127959;&#65039; &nbsp; System Design & Cloud</span>
+</div>
+
 {% raw %}
 # API Design — Complete Interview Preparation Guide
 

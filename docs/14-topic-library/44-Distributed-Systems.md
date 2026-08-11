@@ -6,6 +6,11 @@ nav_order: 44
 permalink: /14-topic-library/44-Distributed-Systems/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #44</span>
+  <span class="topic-cat">&#127959;&#65039; &nbsp; System Design & Cloud</span>
+</div>
+
 {% raw %}
 # Distributed Systems — Complete Interview Preparation Guide
 

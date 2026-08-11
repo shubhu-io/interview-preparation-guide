@@ -6,6 +6,11 @@ nav_order: 45
 permalink: /14-topic-library/45-Cloud-Computing/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #45</span>
+  <span class="topic-cat">&#127959;&#65039; &nbsp; System Design & Cloud</span>
+</div>
+
 {% raw %}
 # Cloud Computing — Complete Interview Preparation Guide
 

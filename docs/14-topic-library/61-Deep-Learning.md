@@ -6,6 +6,11 @@ nav_order: 61
 permalink: /14-topic-library/61-Deep-Learning/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #61</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 61 - Deep Learning: Interview Preparation Guide
 

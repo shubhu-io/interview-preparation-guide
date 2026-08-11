@@ -6,6 +6,11 @@ nav_order: 102
 permalink: /14-topic-library/102-Team-Fit/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #102</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 102 - Team Fit
 

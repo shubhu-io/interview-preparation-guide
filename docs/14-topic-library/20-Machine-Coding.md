@@ -6,6 +6,11 @@ nav_order: 20
 permalink: /14-topic-library/20-Machine-Coding/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #20</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # 20 - Machine Coding for Interviews
 

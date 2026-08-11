@@ -6,6 +6,11 @@ nav_order: 104
 permalink: /14-topic-library/104-Offer-Discussion/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #104</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 104 - Offer Discussion
 

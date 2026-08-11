@@ -6,6 +6,11 @@ nav_order: 100
 permalink: /14-topic-library/100-Bar-Raiser-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #100</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 100 - Amazon Bar Raiser Round
 

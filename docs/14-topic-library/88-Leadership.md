@@ -6,6 +6,11 @@ nav_order: 88
 permalink: /14-topic-library/88-Leadership/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #88</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 88 - Leadership
 

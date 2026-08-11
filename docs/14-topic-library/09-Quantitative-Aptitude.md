@@ -6,6 +6,11 @@ nav_order: 9
 permalink: /14-topic-library/09-Quantitative-Aptitude/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #9</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # Quantitative Aptitude: Math and Quantitative Problems
 

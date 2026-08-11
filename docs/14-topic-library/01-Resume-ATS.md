@@ -6,6 +6,11 @@ nav_order: 1
 permalink: /14-topic-library/01-Resume-ATS/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #1</span>
+  <span class="topic-cat">&#128196; &nbsp; Resume & Job Search</span>
+</div>
+
 {% raw %}
 # 01 - Resume & ATS (Applicant Tracking System) Interview Preparation
 

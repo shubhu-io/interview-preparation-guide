@@ -6,6 +6,11 @@ nav_order: 95
 permalink: /14-topic-library/95-Engineering-Manager-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #95</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 95 - Engineering Manager Round
 

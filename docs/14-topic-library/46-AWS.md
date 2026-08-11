@@ -6,6 +6,11 @@ nav_order: 46
 permalink: /14-topic-library/46-AWS/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #46</span>
+  <span class="topic-cat">&#127959;&#65039; &nbsp; System Design & Cloud</span>
+</div>
+
 {% raw %}
 # AWS — Complete Interview Preparation Guide
 

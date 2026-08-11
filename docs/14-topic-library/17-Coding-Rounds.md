@@ -6,6 +6,11 @@ nav_order: 17
 permalink: /14-topic-library/17-Coding-Rounds/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #17</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # 17 - Coding Rounds for Interviews
 

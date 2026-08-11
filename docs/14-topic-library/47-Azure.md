@@ -6,6 +6,11 @@ nav_order: 47
 permalink: /14-topic-library/47-Azure/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #47</span>
+  <span class="topic-cat">&#127959;&#65039; &nbsp; System Design & Cloud</span>
+</div>
+
 {% raw %}
 # Microsoft Azure - Complete Interview Preparation Guide
 

@@ -6,6 +6,11 @@ nav_order: 11
 permalink: /14-topic-library/11-Verbal-Ability/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #11</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # Verbal Ability and Comprehension
 

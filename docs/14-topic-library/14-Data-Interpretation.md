@@ -6,6 +6,11 @@ nav_order: 14
 permalink: /14-topic-library/14-Data-Interpretation/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #14</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # 14 - Data Interpretation for Interviews
 

@@ -6,6 +6,11 @@ nav_order: 55
 permalink: /14-topic-library/55-GitHub/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #55</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # GitHub - Complete Interview Preparation Guide
 

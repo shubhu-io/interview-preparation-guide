@@ -6,6 +6,11 @@ nav_order: 23
 permalink: /14-topic-library/23-Code-Review/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #23</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # 23 - Code Review: Skills, Best Practices, and Interview Preparation
 

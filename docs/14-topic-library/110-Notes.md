@@ -6,6 +6,11 @@ nav_order: 110
 permalink: /14-topic-library/110-Notes/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #110</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 110 - Personal Notes
 

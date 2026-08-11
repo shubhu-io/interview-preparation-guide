@@ -6,6 +6,11 @@ nav_order: 39
 permalink: /14-topic-library/39-Computer-Architecture/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #39</span>
+  <span class="topic-cat">&#9881;&#65039; &nbsp; Core Computer Science</span>
+</div>
+
 {% raw %}
 # Computer Architecture — Complete Interview Preparation Guide
 

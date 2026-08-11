@@ -6,6 +6,11 @@ nav_order: 6
 permalink: /14-topic-library/06-Cover-Letter/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #6</span>
+  <span class="topic-cat">&#128196; &nbsp; Resume & Job Search</span>
+</div>
+
 {% raw %}
 # Writing Effective Cover Letters
 

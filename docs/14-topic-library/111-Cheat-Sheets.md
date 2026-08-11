@@ -6,6 +6,11 @@ nav_order: 111
 permalink: /14-topic-library/111-Cheat-Sheets/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #111</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 111 - Cheat Sheets
 

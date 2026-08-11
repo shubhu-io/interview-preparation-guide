@@ -6,6 +6,11 @@ nav_order: 94
 permalink: /14-topic-library/94-Hiring-Manager-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #94</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 94 - Hiring Manager Round
 

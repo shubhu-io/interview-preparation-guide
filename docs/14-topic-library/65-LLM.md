@@ -6,6 +6,11 @@ nav_order: 65
 permalink: /14-topic-library/65-LLM/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #65</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 65 - Large Language Models (LLM): Interview Preparation Guide
 

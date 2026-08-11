@@ -6,6 +6,11 @@ nav_order: 70
 permalink: /14-topic-library/70-Data-Analytics/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #70</span>
+  <span class="topic-cat">&#128200; &nbsp; Data & Analytics</span>
+</div>
+
 {% raw %}
 # 70 - Data Analytics: Interview Preparation Guide
 

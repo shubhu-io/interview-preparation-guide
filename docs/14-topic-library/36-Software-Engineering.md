@@ -6,6 +6,11 @@ nav_order: 36
 permalink: /14-topic-library/36-Software-Engineering/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #36</span>
+  <span class="topic-cat">&#9881;&#65039; &nbsp; Core Computer Science</span>
+</div>
+
 {% raw %}
 # Software Engineering — Complete Interview Preparation Guide
 

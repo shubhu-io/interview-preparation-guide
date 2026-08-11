@@ -6,6 +6,11 @@ nav_order: 114
 permalink: /14-topic-library/114-Weekly-Revision/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #114</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 114 - Weekly Revision
 

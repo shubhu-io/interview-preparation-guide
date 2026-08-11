@@ -6,6 +6,11 @@ nav_order: 32
 permalink: /14-topic-library/32-Operating-System/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #32</span>
+  <span class="topic-cat">&#9881;&#65039; &nbsp; Core Computer Science</span>
+</div>
+
 {% raw %}
 # Operating System Interview Preparation
 

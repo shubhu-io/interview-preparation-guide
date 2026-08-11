@@ -6,6 +6,11 @@ nav_order: 103
 permalink: /14-topic-library/103-Salary-Negotiation/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #103</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 103 - Salary Negotiation
 

@@ -6,6 +6,11 @@ nav_order: 86
 permalink: /14-topic-library/86-Behavioral-Interview/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #86</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 86 - Behavioral Interview
 

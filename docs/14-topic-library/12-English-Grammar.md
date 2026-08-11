@@ -6,6 +6,11 @@ nav_order: 12
 permalink: /14-topic-library/12-English-Grammar/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #12</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # 12 - English Grammar for Interviews
 

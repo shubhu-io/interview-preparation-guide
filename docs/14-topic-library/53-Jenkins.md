@@ -6,6 +6,11 @@ nav_order: 53
 permalink: /14-topic-library/53-Jenkins/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #53</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # Jenkins - Complete Interview Preparation Guide
 

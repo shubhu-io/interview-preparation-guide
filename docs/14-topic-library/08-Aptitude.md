@@ -6,6 +6,11 @@ nav_order: 8
 permalink: /14-topic-library/08-Aptitude/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #8</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # General Aptitude Preparation
 

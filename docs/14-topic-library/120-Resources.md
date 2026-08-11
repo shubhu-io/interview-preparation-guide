@@ -6,6 +6,11 @@ nav_order: 120
 permalink: /14-topic-library/120-Resources/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #120</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # Resources — Complete Interview Preparation Resource Guide
 

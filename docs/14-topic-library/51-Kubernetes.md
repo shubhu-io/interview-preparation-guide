@@ -6,6 +6,11 @@ nav_order: 51
 permalink: /14-topic-library/51-Kubernetes/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #51</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # Kubernetes - Complete Interview Preparation Guide
 

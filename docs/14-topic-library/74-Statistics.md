@@ -6,6 +6,11 @@ nav_order: 74
 permalink: /14-topic-library/74-Statistics/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #74</span>
+  <span class="topic-cat">&#128200; &nbsp; Data & Analytics</span>
+</div>
+
 {% raw %}
 # 74 - Statistics: Interview Preparation Guide
 

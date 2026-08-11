@@ -6,6 +6,11 @@ nav_order: 101
 permalink: /14-topic-library/101-Culture-Fit/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #101</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 101 - Culture Fit
 

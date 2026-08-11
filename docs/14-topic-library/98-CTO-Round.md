@@ -6,6 +6,11 @@ nav_order: 98
 permalink: /14-topic-library/98-CTO-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #98</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # CTO Round — Complete Interview Preparation Guide
 

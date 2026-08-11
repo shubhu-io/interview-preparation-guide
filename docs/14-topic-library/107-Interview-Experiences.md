@@ -6,6 +6,11 @@ nav_order: 107
 permalink: /14-topic-library/107-Interview-Experiences/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #107</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 107 - Interview Experiences
 

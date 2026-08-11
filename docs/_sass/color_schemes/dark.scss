@@ -1,6 +1,10 @@
 // Modern dark color scheme for Interview Preparation Guide.
 $color-scheme: dark;
 
+// Layout
+$nav-width: 300px;
+$content-width: 1100px;
+
 // Core surfaces
 $body-background-color: #0b1020;
 $body-background-gradient: linear-gradient(180deg, #0b1020 0%, #0d1226 100%);
@@ -20,6 +24,24 @@ $link-color-hover: #a8c4ff;
 $brand-accent: #6d5df6;
 $brand-accent-2: #0ea5e9;
 $brand-gradient: linear-gradient(135deg, #6d5df6 0%, #0ea5e9 100%);
+
+// Category accent colors (used for card top bars, icons, and chips)
+$cat-resume-job-search: #f59e0b;
+$cat-assessments-aptitude: #fb923c;
+$cat-coding-dsa: #34d399;
+$cat-programming-languages: #38bdf8;
+$cat-core-cs: #a78bfa;
+$cat-system-design-cloud: #60a5fa;
+$cat-devops-ops: #fb7185;
+$cat-ai-ml-genai: #e879f9;
+$cat-data-analytics: #2dd4bf;
+$cat-security-testing: #a3e635;
+$cat-development: #818cf8;
+$cat-interview-rounds: #f472b6;
+$cat-preparation-tools: #facc15;
+$cat-universal-guide: #22d3ee;
+$cat-getting-started: #34d399;
+$cat-specialized-domains: #a78bfa;
 
 // Buttons & code
 $btn-primary-color: #6d5df6;

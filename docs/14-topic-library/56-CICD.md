@@ -6,6 +6,11 @@ nav_order: 56
 permalink: /14-topic-library/56-CICD/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #56</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # CI/CD - Complete Interview Preparation Guide
 

@@ -6,6 +6,11 @@ nav_order: 10
 permalink: /14-topic-library/10-Logical-Reasoning/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #10</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # Logical Reasoning Patterns
 

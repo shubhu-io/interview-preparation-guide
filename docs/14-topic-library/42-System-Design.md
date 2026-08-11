@@ -6,6 +6,11 @@ nav_order: 42
 permalink: /14-topic-library/42-System-Design/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #42</span>
+  <span class="topic-cat">&#127959;&#65039; &nbsp; System Design & Cloud</span>
+</div>
+
 {% raw %}
 # System Design (HLD & LLD) Interview Preparation
 

@@ -6,6 +6,11 @@ nav_order: 112
 permalink: /14-topic-library/112-Flash-Cards/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #112</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 112 - Flash Cards
 

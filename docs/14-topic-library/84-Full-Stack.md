@@ -6,6 +6,11 @@ nav_order: 84
 permalink: /14-topic-library/84-Full-Stack/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #84</span>
+  <span class="topic-cat">&#128295; &nbsp; Development</span>
+</div>
+
 {% raw %}
 # 84 - Full-Stack Development
 

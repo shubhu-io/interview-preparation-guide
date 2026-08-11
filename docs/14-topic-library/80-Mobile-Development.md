@@ -6,6 +6,11 @@ nav_order: 80
 permalink: /14-topic-library/80-Mobile-Development/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #80</span>
+  <span class="topic-cat">&#128295; &nbsp; Development</span>
+</div>
+
 {% raw %}
 # 80 - Mobile Development
 

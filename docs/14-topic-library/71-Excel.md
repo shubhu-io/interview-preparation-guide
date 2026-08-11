@@ -6,6 +6,11 @@ nav_order: 71
 permalink: /14-topic-library/71-Excel/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #71</span>
+  <span class="topic-cat">&#128200; &nbsp; Data & Analytics</span>
+</div>
+
 {% raw %}
 # 71 - Excel: Interview Preparation Guide
 

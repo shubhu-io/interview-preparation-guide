@@ -6,6 +6,11 @@ nav_order: 49
 permalink: /14-topic-library/49-DevOps/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #49</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # DevOps - Complete Interview Preparation Guide
 

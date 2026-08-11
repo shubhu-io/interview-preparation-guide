@@ -6,6 +6,11 @@ nav_order: 93
 permalink: /14-topic-library/93-Managerial-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #93</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 93 - Managerial Round
 

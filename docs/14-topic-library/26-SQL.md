@@ -6,6 +6,11 @@ nav_order: 26
 permalink: /14-topic-library/26-SQL/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #26</span>
+  <span class="topic-cat">&#128220; &nbsp; Programming Languages</span>
+</div>
+
 {% raw %}
 # 26 - SQL: Queries, Optimization, and Interview Preparation
 

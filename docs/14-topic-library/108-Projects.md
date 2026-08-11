@@ -6,6 +6,11 @@ nav_order: 108
 permalink: /14-topic-library/108-Projects/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #108</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 108 - Portfolio Projects
 

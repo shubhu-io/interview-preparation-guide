@@ -6,6 +6,11 @@ nav_order: 52
 permalink: /14-topic-library/52-Terraform/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #52</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # Terraform - Complete Interview Preparation Guide
 

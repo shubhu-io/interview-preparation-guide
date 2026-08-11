@@ -6,6 +6,11 @@ nav_order: 16
 permalink: /14-topic-library/16-Psychometric-Test/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #16</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # Psychometric Test — Complete Interview Preparation Guide
 

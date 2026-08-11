@@ -6,6 +6,11 @@ nav_order: 66
 permalink: /14-topic-library/66-RAG/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #66</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 66 - RAG (Retrieval Augmented Generation): Interview Preparation Guide
 

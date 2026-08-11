@@ -6,6 +6,11 @@ nav_order: 119
 permalink: /14-topic-library/119-Practice-Websites/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #119</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # Practice Websites — Complete Resource Guide
 

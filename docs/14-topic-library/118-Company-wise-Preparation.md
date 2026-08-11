@@ -6,6 +6,11 @@ nav_order: 118
 permalink: /14-topic-library/118-Company-wise-Preparation/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #118</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # Company-wise Preparation — Complete Interview Guide
 

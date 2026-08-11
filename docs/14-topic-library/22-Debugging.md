@@ -6,6 +6,11 @@ nav_order: 22
 permalink: /14-topic-library/22-Debugging/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #22</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # 22 - Debugging: Bug Identification and Fixing
 

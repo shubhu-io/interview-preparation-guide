@@ -6,6 +6,11 @@ nav_order: 4
 permalink: /14-topic-library/04-Portfolio/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #4</span>
+  <span class="topic-cat">&#128196; &nbsp; Resume & Job Search</span>
+</div>
+
 {% raw %}
 # Building a Strong Portfolio
 

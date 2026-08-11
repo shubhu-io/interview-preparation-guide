@@ -6,6 +6,11 @@ nav_order: 79
 permalink: /14-topic-library/79-Testing/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #79</span>
+  <span class="topic-cat">&#128274; &nbsp; Security, Testing & Networking</span>
+</div>
+
 {% raw %}
 # 79 - Software Testing: Interview Preparation Guide
 

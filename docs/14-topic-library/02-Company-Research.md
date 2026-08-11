@@ -6,6 +6,11 @@ nav_order: 2
 permalink: /14-topic-library/02-Company-Research/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #2</span>
+  <span class="topic-cat">&#128196; &nbsp; Resume & Job Search</span>
+</div>
+
 {% raw %}
 # Company Research for Interview Success
 

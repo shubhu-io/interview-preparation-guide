@@ -6,6 +6,11 @@ nav_order: 21
 permalink: /14-topic-library/21-Whiteboard-Coding/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #21</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # 21 - Whiteboard Coding for Interviews
 

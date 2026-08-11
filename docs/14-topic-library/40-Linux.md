@@ -6,6 +6,11 @@ nav_order: 40
 permalink: /14-topic-library/40-Linux/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #40</span>
+  <span class="topic-cat">&#9881;&#65039; &nbsp; Core Computer Science</span>
+</div>
+
 {% raw %}
 # Linux — Complete Interview Preparation Guide
 

@@ -6,6 +6,11 @@ nav_order: 27
 permalink: /14-topic-library/27-Python/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #27</span>
+  <span class="topic-cat">&#128220; &nbsp; Programming Languages</span>
+</div>
+
 {% raw %}
 # 27 - Python: Programming for Interviews
 

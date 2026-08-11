@@ -6,6 +6,11 @@ nav_order: 57
 permalink: /14-topic-library/57-Monitoring/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #57</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # Monitoring and Observability - Complete Interview Preparation Guide
 

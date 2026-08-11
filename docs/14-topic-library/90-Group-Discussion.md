@@ -6,6 +6,11 @@ nav_order: 90
 permalink: /14-topic-library/90-Group-Discussion/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #90</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 90 - Group Discussion
 

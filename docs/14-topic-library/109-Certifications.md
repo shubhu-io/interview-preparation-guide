@@ -6,6 +6,11 @@ nav_order: 109
 permalink: /14-topic-library/109-Certifications/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #109</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 109 - Certifications
 

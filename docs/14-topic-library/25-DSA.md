@@ -6,6 +6,11 @@ nav_order: 25
 permalink: /14-topic-library/25-DSA/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #25</span>
+  <span class="topic-cat">&#128187; &nbsp; Coding & DSA</span>
+</div>
+
 {% raw %}
 # Data Structures & Algorithms — Interview Preparation
 

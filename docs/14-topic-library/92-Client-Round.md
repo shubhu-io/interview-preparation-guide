@@ -6,6 +6,11 @@ nav_order: 92
 permalink: /14-topic-library/92-Client-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #92</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 92 - Client Round
 

@@ -6,6 +6,11 @@ nav_order: 72
 permalink: /14-topic-library/72-Power-BI/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #72</span>
+  <span class="topic-cat">&#128200; &nbsp; Data & Analytics</span>
+</div>
+
 {% raw %}
 # 72 - Power BI: Interview Preparation Guide
 

@@ -6,6 +6,11 @@ nav_order: 13
 permalink: /14-topic-library/13-Reading-Comprehension/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #13</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # 13 - Reading Comprehension for Interviews
 

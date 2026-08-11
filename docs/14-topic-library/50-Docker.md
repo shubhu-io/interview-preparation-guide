@@ -6,6 +6,11 @@ nav_order: 50
 permalink: /14-topic-library/50-Docker/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #50</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # Docker - Complete Interview Preparation Guide
 

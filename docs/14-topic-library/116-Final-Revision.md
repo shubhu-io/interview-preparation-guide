@@ -6,6 +6,11 @@ nav_order: 116
 permalink: /14-topic-library/116-Final-Revision/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #116</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 116 - Final Revision
 

@@ -6,6 +6,11 @@ nav_order: 73
 permalink: /14-topic-library/73-Tableau/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #73</span>
+  <span class="topic-cat">&#128200; &nbsp; Data & Analytics</span>
+</div>
+
 {% raw %}
 # 73 - Tableau: Interview Preparation Guide
 

@@ -6,6 +6,11 @@ nav_order: 63
 permalink: /14-topic-library/63-Computer-Vision/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #63</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 63 - Computer Vision: Interview Preparation Guide
 

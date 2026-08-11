@@ -6,6 +6,11 @@ nav_order: 29
 permalink: /14-topic-library/29-JavaScript/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #29</span>
+  <span class="topic-cat">&#128220; &nbsp; Programming Languages</span>
+</div>
+
 {% raw %}
 # 29 - JavaScript: Programming for Interviews
 

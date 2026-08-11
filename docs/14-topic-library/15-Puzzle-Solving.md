@@ -6,6 +6,11 @@ nav_order: 15
 permalink: /14-topic-library/15-Puzzle-Solving/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #15</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # 15 - Puzzle Solving for Interviews
 

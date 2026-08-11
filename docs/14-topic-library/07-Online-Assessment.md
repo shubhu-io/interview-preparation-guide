@@ -6,6 +6,11 @@ nav_order: 7
 permalink: /14-topic-library/07-Online-Assessment/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #7</span>
+  <span class="topic-cat">&#129504; &nbsp; Online Assessments & Aptitude</span>
+</div>
+
 {% raw %}
 # Online Assessment (OA) Preparation Strategies
 

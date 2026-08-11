@@ -6,6 +6,11 @@ nav_order: 5
 permalink: /14-topic-library/05-LinkedIn/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #5</span>
+  <span class="topic-cat">&#128196; &nbsp; Resume & Job Search</span>
+</div>
+
 {% raw %}
 # LinkedIn Profile Optimization
 

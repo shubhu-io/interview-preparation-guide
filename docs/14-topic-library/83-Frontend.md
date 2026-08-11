@@ -6,6 +6,11 @@ nav_order: 83
 permalink: /14-topic-library/83-Frontend/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #83</span>
+  <span class="topic-cat">&#128295; &nbsp; Development</span>
+</div>
+
 {% raw %}
 # 83 - Frontend Development
 

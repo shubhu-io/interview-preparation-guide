@@ -6,6 +6,11 @@ nav_order: 64
 permalink: /14-topic-library/64-Generative-AI/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #64</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 64 - Generative AI: Interview Preparation Guide
 

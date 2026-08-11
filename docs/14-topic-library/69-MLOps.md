@@ -6,6 +6,11 @@ nav_order: 69
 permalink: /14-topic-library/69-MLOps/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #69</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 69 - MLOps: Interview Preparation Guide
 

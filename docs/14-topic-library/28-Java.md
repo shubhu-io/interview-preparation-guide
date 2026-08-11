@@ -6,6 +6,11 @@ nav_order: 28
 permalink: /14-topic-library/28-Java/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #28</span>
+  <span class="topic-cat">&#128220; &nbsp; Programming Languages</span>
+</div>
+
 {% raw %}
 # 28 - Java: Programming for Interviews
 

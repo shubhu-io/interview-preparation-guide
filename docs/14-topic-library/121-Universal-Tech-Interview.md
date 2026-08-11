@@ -6,6 +6,11 @@ nav_order: 121
 permalink: /14-topic-library/121-Universal-Tech-Interview/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #121</span>
+  <span class="topic-cat">&#127891; &nbsp; Universal Tech Interview Guide</span>
+</div>
+
 {% raw %}
 # 121 - Universal Technical Interview Preparation AI
 

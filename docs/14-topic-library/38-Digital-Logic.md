@@ -6,6 +6,11 @@ nav_order: 38
 permalink: /14-topic-library/38-Digital-Logic/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #38</span>
+  <span class="topic-cat">&#9881;&#65039; &nbsp; Core Computer Science</span>
+</div>
+
 {% raw %}
 # Digital Logic — Complete Interview Preparation Guide
 

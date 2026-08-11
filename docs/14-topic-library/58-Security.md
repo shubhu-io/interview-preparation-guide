@@ -6,6 +6,11 @@ nav_order: 58
 permalink: /14-topic-library/58-Security/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #58</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # Application Security - Complete Interview Preparation Guide
 

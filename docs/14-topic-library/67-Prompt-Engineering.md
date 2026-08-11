@@ -6,6 +6,11 @@ nav_order: 67
 permalink: /14-topic-library/67-Prompt-Engineering/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #67</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 67 - Prompt Engineering: Interview Preparation Guide
 

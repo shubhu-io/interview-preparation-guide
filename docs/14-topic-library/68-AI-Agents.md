@@ -6,6 +6,11 @@ nav_order: 68
 permalink: /14-topic-library/68-AI-Agents/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #68</span>
+  <span class="topic-cat">&#129302; &nbsp; AI, ML & Generative AI</span>
+</div>
+
 {% raw %}
 # 68 - AI Agents: Interview Preparation Guide
 

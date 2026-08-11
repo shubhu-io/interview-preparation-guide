@@ -6,6 +6,11 @@ nav_order: 113
 permalink: /14-topic-library/113-Daily-Revision/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #113</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 113 - Daily Revision
 

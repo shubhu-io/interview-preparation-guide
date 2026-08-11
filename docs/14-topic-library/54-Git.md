@@ -6,6 +6,11 @@ nav_order: 54
 permalink: /14-topic-library/54-Git/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #54</span>
+  <span class="topic-cat">&#128736; &nbsp; DevOps & Operations</span>
+</div>
+
 {% raw %}
 # Git - Complete Interview Preparation Guide
 

@@ -6,6 +6,11 @@ nav_order: 105
 permalink: /14-topic-library/105-Joining-Preparation/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #105</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # 105 - Joining Preparation
 

@@ -6,6 +6,11 @@ nav_order: 34
 permalink: /14-topic-library/34-Computer-Networks/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #34</span>
+  <span class="topic-cat">&#9881;&#65039; &nbsp; Core Computer Science</span>
+</div>
+
 {% raw %}
 # Computer Networks - Interview Preparation Guide
 

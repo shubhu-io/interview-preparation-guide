@@ -29,20 +29,20 @@ function Get-Slug { param([string]$name) { return $name } }
 
 # ---------- category mapping (by folder number) ----------
 $cats = @(
-    @{ Start = 1;  End = 6;   Slug = "resume-job-search";       Title = "Resume & Job Search" },
-    @{ Start = 7;  End = 16;  Slug = "assessments-aptitude";    Title = "Online Assessments & Aptitude" },
-    @{ Start = 17; End = 25;  Slug = "coding-dsa";              Title = "Coding & DSA" },
-    @{ Start = 26; End = 30;  Slug = "programming-languages";   Title = "Programming Languages" },
-    @{ Start = 31; End = 41;  Slug = "core-cs";                 Title = "Core Computer Science" },
-    @{ Start = 42; End = 48;  Slug = "system-design-cloud";     Title = "System Design & Cloud" },
-    @{ Start = 49; End = 58;  Slug = "devops-ops";              Title = "DevOps & Operations" },
-    @{ Start = 59; End = 69;  Slug = "ai-ml-genai";             Title = "AI, ML & Generative AI" },
-    @{ Start = 70; End = 74;  Slug = "data-analytics";          Title = "Data & Analytics" },
-    @{ Start = 75; End = 79;  Slug = "security-testing";        Title = "Security, Testing & Networking" },
-    @{ Start = 80; End = 84;  Slug = "development";             Title = "Development" },
-    @{ Start = 85; End = 105; Slug = "interview-rounds";        Title = "Interview Rounds" },
-    @{ Start = 106; End = 120; Slug = "preparation-tools";      Title = "Preparation & Tools" },
-    @{ Start = 121; End = 121; Slug = "universal-guide";        Title = "Universal Tech Interview Guide" }
+    @{ Start = 1;  End = 6;   Slug = "resume-job-search";       Title = "Resume & Job Search";              Icon = "&#128196;" },
+    @{ Start = 7;  End = 16;  Slug = "assessments-aptitude";    Title = "Online Assessments & Aptitude";    Icon = "&#129504;" },
+    @{ Start = 17; End = 25;  Slug = "coding-dsa";              Title = "Coding & DSA";                     Icon = "&#128187;" },
+    @{ Start = 26; End = 30;  Slug = "programming-languages";   Title = "Programming Languages";            Icon = "&#128220;" },
+    @{ Start = 31; End = 41;  Slug = "core-cs";                 Title = "Core Computer Science";            Icon = "&#9881;&#65039;" },
+    @{ Start = 42; End = 48;  Slug = "system-design-cloud";     Title = "System Design & Cloud";            Icon = "&#127959;&#65039;" },
+    @{ Start = 49; End = 58;  Slug = "devops-ops";              Title = "DevOps & Operations";              Icon = "&#128736;" },
+    @{ Start = 59; End = 69;  Slug = "ai-ml-genai";             Title = "AI, ML & Generative AI";           Icon = "&#129302;" },
+    @{ Start = 70; End = 74;  Slug = "data-analytics";          Title = "Data & Analytics";                 Icon = "&#128200;" },
+    @{ Start = 75; End = 79;  Slug = "security-testing";        Title = "Security, Testing & Networking";   Icon = "&#128274;" },
+    @{ Start = 80; End = 84;  Slug = "development";             Title = "Development";                      Icon = "&#128295;" },
+    @{ Start = 85; End = 105; Slug = "interview-rounds";        Title = "Interview Rounds";                 Icon = "&#127919;" },
+    @{ Start = 106; End = 120; Slug = "preparation-tools";      Title = "Preparation & Tools";              Icon = "&#128218;" },
+    @{ Start = 121; End = 121; Slug = "universal-guide";        Title = "Universal Tech Interview Guide";   Icon = "&#127891;" }
 )
 
 function Get-Category {
@@ -112,6 +112,11 @@ nav_order: $num
 permalink: /14-topic-library/$slug/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #$num</span>
+  <span class="topic-cat">$($cat.Icon) &nbsp; $($cat.Title)</span>
+</div>
+
 $body
 "@
     $outFile = Join-Path $lib "$slug.md"
@@ -125,9 +130,10 @@ $catIndex = 1
 foreach ($c in $cats) {
     $members = $built | Where-Object { $_.Cat -eq $c.Slug } | Sort-Object Num
     if ($members.Count -eq 0) { continue }
-    $rows = ($members | ForEach-Object {
-        $tn = $_.Title
-        "| $($_.Num) | [$tn](../$($_.Slug)/) |"
+    $cards = ($members | ForEach-Object {
+        '<a class="card" data-cat="' + $c.Slug + '" href="../' + $_.Slug + '/">' +
+            '<div class="card-head"><span class="card-icon">' + $c.Icon + '</span><span class="card-title">' + $_.Num + ' &middot; ' + $_.Title + '</span></div>' +
+            '<div class="card-meta">Read topic <span class="arrow">&#8594;</span></div></a>'
     }) -join "`n"
 
     $fm = @"
@@ -142,11 +148,11 @@ permalink: /14-topic-library/categories/$($c.Slug)/
 
 # $($c.Title)
 
-## Topics in this category
+Browse the $($members.Count) topic(s) in this category.
 
-| # | Topic |
-|---|-------|
-$rows
+<div class="card-grid topic-grid">
+$cards
+</div>
 "@
     Set-Content -LiteralPath (Join-Path $catDir "$($c.Slug).md") -Value $fm -Encoding UTF8
     $catIndex++
@@ -158,14 +164,15 @@ $blocks = foreach ($c in $byCat) {
     $members = $built | Where-Object { $_.Cat -eq $c.Slug } | Sort-Object Num
     $cards = ($members | ForEach-Object {
         $t = $_.Title
-        $card = '<a class="card" href="' + $_.Slug + '/"><div class="card-title">' + $_.Num + ' &middot; ' + $t + '</div><div class="card-meta">Read topic <span class="arrow">&#8594;</span></div></a>'
-        $card
+        '<a class="card" data-cat="' + $c.Slug + '" href="' + $_.Slug + '/">' +
+            '<div class="card-head"><span class="card-icon">' + $c.Icon + '</span><span class="card-title">' + $_.Num + ' &middot; ' + $t + '</span></div>' +
+            '<div class="card-meta">Read topic <span class="arrow">&#8594;</span></div></a>'
     }) -join "`n"
     @"
 
 ### $($c.Title)
 
-<div class="card-grid">
+<div class="card-grid topic-grid">
 $cards
 </div>
 "@
@@ -180,18 +187,29 @@ has_children: true
 nav_order: 14
 ---
 
-# Topic Library
-
-The complete library of every topic folder in this repository, organised by category. Browse all 121 topics — from resume & job search to AI and universal interview preparation.
+<div class="page-hero">
+  <h1 class="page-title">Topic Library</h1>
+  <p class="page-subtitle">
+    The complete library of every topic folder in this repository, organised by category.
+    Browse all $($built.Count) topics — from resume &amp; job search to AI and universal interview preparation.
+  </p>
+</div>
 
 <div class="stats-row">
-  <div class="stat"><div class="stat-value">121</div><div class="stat-label">Topics</div></div>
-  <div class="stat"><div class="stat-value">14</div><div class="stat-label">Categories</div></div>
+  <div class="stat"><div class="stat-value">$($built.Count)</div><div class="stat-label">Topics</div></div>
+  <div class="stat"><div class="stat-value">$($byCat.Count)</div><div class="stat-label">Categories</div></div>
   <div class="stat"><div class="stat-value">4.5MB</div><div class="stat-label">Study content</div></div>
   <div class="stat"><div class="stat-value">100%</div><div class="stat-label">Free &amp; open</div></div>
 </div>
 
+<div class="filter-bar">
+  <input type="search" id="topic-filter" class="filter-input" placeholder="Filter topics by name or number..." aria-label="Filter topics" autocomplete="off" />
+  <span class="filter-count" id="topic-count">$($built.Count) topics</span>
+</div>
+
+<div id="topic-library">
 $blockText
+</div>
 "@
 Set-Content -LiteralPath (Join-Path $lib "index.md") -Value $indexFm -Encoding UTF8
 

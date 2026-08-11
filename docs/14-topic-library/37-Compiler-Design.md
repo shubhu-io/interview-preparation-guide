@@ -6,6 +6,11 @@ nav_order: 37
 permalink: /14-topic-library/37-Compiler-Design/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #37</span>
+  <span class="topic-cat">&#9881;&#65039; &nbsp; Core Computer Science</span>
+</div>
+
 {% raw %}
 # Compiler Design — Complete Interview Preparation Guide
 

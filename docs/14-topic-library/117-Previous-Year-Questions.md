@@ -6,6 +6,11 @@ nav_order: 117
 permalink: /14-topic-library/117-Previous-Year-Questions/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #117</span>
+  <span class="topic-cat">&#128218; &nbsp; Preparation & Tools</span>
+</div>
+
 {% raw %}
 # 117 - Previous Year Questions
 

@@ -6,6 +6,11 @@ nav_order: 99
 permalink: /14-topic-library/99-CEO-Round/
 ---
 
+<div class="topic-meta">
+  <span class="topic-badge">Topic #99</span>
+  <span class="topic-cat">&#127919; &nbsp; Interview Rounds</span>
+</div>
+
 {% raw %}
 # CEO Round — Complete Interview Preparation Guide
 
