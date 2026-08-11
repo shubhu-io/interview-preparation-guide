@@ -9,6 +9,10 @@ baseurl: /interview-preparation-guide
 
 color_scheme: dark
 
+# Mermaid diagrams (flowcharts in index pages)
+mermaid:
+  version: "10.9.1"
+
 aux_links:
   "GitHub":
     - "https://github.com/shubhu-io/interview-preparation-guide"

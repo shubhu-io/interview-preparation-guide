@@ -31,8 +31,9 @@
 11. [Preparation Timeline](#11-preparation-timeline)
 12. [Difficulty Levels](#12-difficulty-levels)
 13. [Quick Links](#13-quick-links)
-14. [Contributing](#14-contributing)
-15. [License](#15-license)
+14. [Website Structure](#14-website-structure)
+15. [Contributing](#15-contributing)
+16. [License](#16-license)
 
 ---
 
@@ -728,7 +729,43 @@ Week 11-12: Mock interviews, behavioral prep, salary negotiation
 
 ---
 
-## 14. Contributing
+## 14. Website Structure
+
+The repository is published to GitHub Pages as a static Jekyll site. All 121 topic folders are auto-generated into browsable pages by the [PowerShell generator](scripts/generate-topic-library.ps1), so the site stays in sync with the repo.
+
+### Layout
+
+```
+.github/workflows/                GitHub Actions: build + deploy to Pages (jekyll.yml)
+_config.yml                       Site config, theme, search, callouts (source: docs)
+docs/index.md                     Landing page (hero, stats, category cards)
+docs/_sass/custom/custom.scss     Theme styles (design tokens, cards, hero)
+docs/_sass/color_schemes/         Dark/light color schemes
+docs/_includes/                   Header/footer/head + js/custom.js (mermaid, copy-code)
+docs/14-topic-library/            Generated pages — one per numbered folder (01–121)
+docs/NN-*.md                      Section index + category hub pages
+docs/NN-*/                        Hand-written deep-dive guides
+scripts/generate-topic-library.ps1  Regenerates topic pages, index, and category hubs
+```
+
+### How to update content
+
+1. **Edit a topic**: update the folder's `README.md` (e.g. `25-DSA/README.md`), then re-run the generator from the repository root:
+   ```powershell
+   pwsh scripts/generate-topic-library.ps1
+   ```
+   This regenerates the matching page at `docs/14-topic-library/25-DSA.md` with fixed internal links.
+2. **Add a new topic**: create a numbered folder with a `README.md` (e.g. `122-Something/README.md`), add its category mapping in the generator script's category table, re-run the generator, and rebuild the site.
+3. **Rebuild locally** (requires Docker):
+   ```powershell
+   docker run --rm -v "${PWD}:/srv/jekyll" -e JEKYLL_ENV=production \
+     jekyll/jekyll:4.2.2 jekyll build
+   ```
+   Output lands in `docs/_site/` (git-ignored).
+
+---
+
+## 15. Contributing
 
 This repository is designed to be a living document. Feel free to:
 - Add new questions and answers
@@ -739,6 +776,6 @@ This repository is designed to be a living document. Feel free to:
 
 ---
 
-## 15. License
+## 16. License
 
 This repository is open for educational use. Share freely and contribute back.
