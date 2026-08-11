@@ -26,12 +26,13 @@
 6. [Recruitment Agencies](#6-recruitment-agencies)
 7. [Company Career Pages](#7-company-career-pages)
 8. [Specialized Domains](#8-specialized-domains)
-9. [Folder-by-Folder Study Guide](#9-folder-by-folder-study-guide)
-10. [Preparation Timeline](#10-preparation-timeline)
-11. [Difficulty Levels](#11-difficulty-levels)
-12. [Quick Links](#12-quick-links)
-13. [Contributing](#13-contributing)
-14. [License](#14-license)
+9. [Universal Tech Interview Guide](#9-universal-tech-interview-guide)
+10. [Folder-by-Folder Study Guide](#10-folder-by-folder-study-guide)
+11. [Preparation Timeline](#11-preparation-timeline)
+12. [Difficulty Levels](#12-difficulty-levels)
+13. [Quick Links](#13-quick-links)
+14. [Contributing](#14-contributing)
+15. [License](#15-license)
 
 ---
 
@@ -523,7 +524,17 @@ All of 7.1 plus:
 
 ---
 
-## 9. Folder-by-Folder Study Guide
+## 9. Universal Tech Interview Guide
+
+The [121-Universal-Tech-Interview](121-Universal-Tech-Interview/) folder is a 38-domain preparation system for any technical role. Each domain folder contains structured notes, sample interview questions, prep tips, and links to the repo's detailed folders. It also includes a [Master Prompt](121-Universal-Tech-Interview/Master-Prompt.md) you can paste into any AI to get a personalized interview coach (mock interviews, JD analysis, weak-area tracking, final assessments).
+
+- **Quick start**: Read the [Master Prompt](121-Universal-Tech-Interview/Master-Prompt.md), paste it into your favorite AI, and say **START**.
+- **Browse domains**: CS fundamentals, programming, web, mobile, DSA, database, networking, OS, cloud, DevOps, platform engineering, SRE, cybersecurity, data (analytics/science/engineering), AI/ML, GenAI, agentic AI, MLOps, architecture, system design, testing, embedded/IoT, robotics, blockchain, games, AR/VR/XR, enterprise tech, IT ops, tools, and more.
+- **Prep roadmap**: [Week-by-week plan](121-Universal-Tech-Interview/README.md#prep-roadmap-using-this-section).
+
+---
+
+## 10. Folder-by-Folder Study Guide
 
 | # | Folder | Description |
 |---|--------|-------------|
@@ -647,10 +658,11 @@ All of 7.1 plus:
 | 118 | [Company-wise Preparation](118-Company-wise-Preparation/) | Company-specific prep |
 | 119 | [Practice Websites](119-Practice-Websites/) | Online platforms |
 | 120 | [Resources](120-Resources/) | Learning resources |
+| 121 | [Universal Tech Interview Guide](121-Universal-Tech-Interview/) | 38 domains from CS fundamentals to GenAI — what to learn, top questions, prep tips |
 
 ---
 
-## 10. Preparation Timeline
+## 11. Preparation Timeline
 
 ### General Software/IT Track
 ```
@@ -684,7 +696,7 @@ Week 11-12: Mock interviews, behavioral prep, salary negotiation
 
 ---
 
-## 11. Difficulty Levels
+## 12. Difficulty Levels
 
 | Level | Description | Target |
 |-------|-------------|--------|
@@ -695,7 +707,7 @@ Week 11-12: Mock interviews, behavioral prep, salary negotiation
 
 ---
 
-## 12. Quick Links
+## 13. Quick Links
 
 - [GitHub Pages](https://shubhu-io.github.io/interview-preparation-guide/) - Browse the full guide as a website
 - [GitHub Wiki](https://github.com/shubhu-io/interview-preparation-guide/wiki) - Topic-by-topic wiki documentation
@@ -709,10 +721,14 @@ Week 11-12: Mock interviews, behavioral prep, salary negotiation
 - [Fresher Job Tips & Hacks](docs/01-getting-started/fresher-job-hacks.md) - The fresher-to-offer conversion playbook
 - [Improve Communication & English](docs/01-getting-started/improve-communication-english.md) - Interview-grade spoken English system
 - [Interview Confidence & All the Hacks](docs/01-getting-started/interview-confidence-hacks.md) - Master hack list from resume to offer
+- [Career Gap, No Degree & Dropout Comeback](docs/01-getting-started/career-gap-comeback.md) - Playbook for non-traditional backgrounds
+- [The Harsh Truth: Interview Hacks, Good & Bad](docs/01-getting-started/harsh-truth-interview-hacks.md) - What actually works (and what backfires)
+- [Full Solution: Failure, Gaps & No Degree → Success](docs/01-getting-started/full-solution-failure-gap-no-degree.md) - 12-month system for offers against the odds
+- [Universal Tech Interview Guide](121-Universal-Tech-Interview/) - 38 domains from CS fundamentals to GenAI
 
 ---
 
-## 13. Contributing
+## 14. Contributing
 
 This repository is designed to be a living document. Feel free to:
 - Add new questions and answers
@@ -723,6 +739,6 @@ This repository is designed to be a living document. Feel free to:
 
 ---
 
-## 14. License
+## 15. License
 
 This repository is open for educational use. Share freely and contribute back.

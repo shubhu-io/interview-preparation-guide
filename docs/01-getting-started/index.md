@@ -37,10 +37,13 @@ The **Getting Started** category covers the essential foundation for your job se
 | 13 | [Fresher Job Tips & Hacks](fresher-job-hacks) | How freshers convert applications into offers: internships, projects, referrals, OAs |
 | 14 | [Improve Communication & English](improve-communication-english) | Practical system to improve spoken English and interview communication |
 | 15 | [Interview Confidence & All the Hacks](interview-confidence-hacks) | Confidence systems plus a master hack list from resume to offer |
+| 16 | [Career Gap, No Degree & Dropout Comeback](career-gap-comeback) | Honest playbook for gaps, dropouts and non-degree candidates with motivation + harsh truth |
+| 17 | [The Harsh Truth: Interview Hacks, Good & Bad](harsh-truth-interview-hacks) | The unvarnished mechanics of interview calls and what actually works (and what backfires) |
+| 18 | [Full Solution: Failure, Gaps & No Degree → Success](full-solution-failure-gap-no-degree) | Complete 12-month system turning failure, gaps and no-degree backgrounds into offers |
 
 ## Prerequisites
 
-No prior knowledge is required. Start with any topic that addresses your most immediate need, or follow the sequence from 01 to 15 for a comprehensive preparation path.
+No prior knowledge is required. Start with any topic that addresses your most immediate need, or follow the sequence from 01 to 17 for a comprehensive preparation path.
 
 ## Recommended Order
 
@@ -54,6 +57,8 @@ No prior knowledge is required. Start with any topic that addresses your most im
 8. **Fresher Tips & Hacks** — The fresher conversion playbook (if you're a fresher)
 9. **Communication & English** — Build interview-grade spoken English
 10. **Confidence & All the Hacks** — Deploy the master hack list weekly
-11. **LinkedIn** — Optimize your online professional presence
-12. **Portfolio** — Showcase concrete evidence of your skills
-13. **Cover Letter** — Polish your application with compelling narratives
+11. **Career Gap Comeback** — If you have gaps/dropout, this is your roadmap
+12. **Harsh Truth Interviews** — Read how the game really works (and what backfires)
+13. **LinkedIn** — Optimize your online professional presence
+14. **Portfolio** — Showcase concrete evidence of your skills
+15. **Cover Letter** — Polish your application with compelling narratives
