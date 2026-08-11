@@ -705,6 +705,10 @@ Week 11-12: Mock interviews, behavioral prep, salary negotiation
 - [Company-wise](118-Company-wise-Preparation/) - Target specific companies
 - [Projects](108-Projects/) - Build your portfolio
 - [Specialized Domains](docs/13-specialized-domains/) - VLSI, SoC, Embedded/IoT, Drone, AI/DS and more
+- [Resume Tailoring to JD](docs/01-getting-started/resume-tailoring.md) - Tailor your resume to any job description
+- [Fresher Job Tips & Hacks](docs/01-getting-started/fresher-job-hacks.md) - The fresher-to-offer conversion playbook
+- [Improve Communication & English](docs/01-getting-started/improve-communication-english.md) - Interview-grade spoken English system
+- [Interview Confidence & All the Hacks](docs/01-getting-started/interview-confidence-hacks.md) - Master hack list from resume to offer
 
 ---
 

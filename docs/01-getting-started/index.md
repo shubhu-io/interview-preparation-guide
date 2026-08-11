@@ -33,10 +33,14 @@ The **Getting Started** category covers the essential foundation for your job se
 | 09 | [Company Career Pages](career-pages) | Official career pages of global, Indian, semiconductor, drone and AI companies |
 | 10 | [Job Portals](job-portals) | Global, India-focused, and niche job boards plus portal tactics |
 | 11 | [Recruitment Agencies](recruitment-agencies) | Genuine staffing agencies and how to work with them safely |
+| 12 | [Resume Tailoring to JD](resume-tailoring) | Step-by-step tailoring of your resume to match any job description |
+| 13 | [Fresher Job Tips & Hacks](fresher-job-hacks) | How freshers convert applications into offers: internships, projects, referrals, OAs |
+| 14 | [Improve Communication & English](improve-communication-english) | Practical system to improve spoken English and interview communication |
+| 15 | [Interview Confidence & All the Hacks](interview-confidence-hacks) | Confidence systems plus a master hack list from resume to offer |
 
 ## Prerequisites
 
-No prior knowledge is required. Start with any topic that addresses your most immediate need, or follow the sequence from 01 to 11 for a comprehensive preparation path.
+No prior knowledge is required. Start with any topic that addresses your most immediate need, or follow the sequence from 01 to 15 for a comprehensive preparation path.
 
 ## Recommended Order
 
@@ -46,6 +50,10 @@ No prior knowledge is required. Start with any topic that addresses your most im
 4. **Job Search Strategy** — Learn the channels that generate interview calls
 5. **Types of Interviews** — Know what formats you'll face
 6. **Career Pages + Job Portals + Agencies** — Where to actually apply
-7. **LinkedIn** — Optimize your online professional presence
-8. **Portfolio** — Showcase concrete evidence of your skills
-9. **Cover Letter** — Polish your application with compelling narratives
+7. **Resume Tailoring** — Re-write your resume per job description
+8. **Fresher Tips & Hacks** — The fresher conversion playbook (if you're a fresher)
+9. **Communication & English** — Build interview-grade spoken English
+10. **Confidence & All the Hacks** — Deploy the master hack list weekly
+11. **LinkedIn** — Optimize your online professional presence
+12. **Portfolio** — Showcase concrete evidence of your skills
+13. **Cover Letter** — Polish your application with compelling narratives
