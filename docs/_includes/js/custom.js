@@ -1,42 +1,4 @@
 jtd.onReady(function () {
-  // ---------- Theme toggle ----------
-  var toggle = document.getElementById('theme-toggle');
-  if (toggle) {
-    var cssBase = '{{ "/assets/css/just-the-docs-" | relative_url }}';
-    var metaTheme = document.querySelector('meta[name="theme-color"]');
-    var themeColors = { dark: '#0b1020', light: '#f8fafc' };
-
-    function currentTheme() {
-      var href = document.querySelector('link[rel="stylesheet"]').getAttribute('href');
-      if (href.indexOf('just-the-docs-light') !== -1) return 'light';
-      if (href.indexOf('just-the-docs-dark') !== -1) return 'dark';
-      return 'dark'; // compiled from color_scheme
-    }
-
-    function applyTheme(theme) {
-      var link = document.querySelector('link[rel="stylesheet"]');
-      var name = theme === 'light' ? 'light' : 'dark';
-      link.setAttribute('href', cssBase + name + '.css');
-      try { localStorage.setItem('jtd-theme', name); } catch (e) {}
-      if (metaTheme) { metaTheme.setAttribute('content', themeColors[name]); }
-      updateIcon(name);
-    }
-
-    function updateIcon(theme) {
-      var moon = document.getElementById('icon-moon');
-      var sun = document.getElementById('icon-sun');
-      if (moon) moon.hidden = theme !== 'dark';
-      if (sun) sun.hidden = theme !== 'light';
-      toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-    }
-
-    updateIcon(currentTheme());
-
-    toggle.addEventListener('click', function () {
-      applyTheme(currentTheme() === 'light' ? 'dark' : 'light');
-    });
-  }
-
   // ---------- Topic Library live filter ----------
   var input = document.getElementById('topic-filter');
   if (input) {
@@ -77,34 +39,6 @@ jtd.onReady(function () {
     input.addEventListener('input', applyFilter);
     applyFilter();
   }
-
-  // ---------- Reading progress bar ----------
-  var progress = document.createElement('div');
-  progress.className = 'reading-progress';
-  progress.setAttribute('aria-hidden', 'true');
-  document.body.appendChild(progress);
-
-  var scrollTimer = null;
-  function updateProgress() {
-    var doc = document.documentElement;
-    var scrollTop = window.pageYOffset || doc.scrollTop || 0;
-    var max = doc.scrollHeight - window.innerHeight;
-    var pct = max > 0 ? Math.min(100, Math.round((scrollTop / max) * 1000) / 10) : 0;
-    progress.style.transform = 'scaleX(' + (pct / 100) + ')';
-    progress.style.opacity = pct > 0.5 ? '1' : '0';
-
-    // Back-to-top: show once the user has scrolled a bit
-    var btt = document.getElementById('back-to-top');
-    if (btt) { btt.classList.toggle('is-visible', scrollTop > 320); }
-  }
-  window.addEventListener('scroll', function () {
-    if (scrollTimer) return;
-    scrollTimer = requestAnimationFrame(function () {
-      scrollTimer = null;
-      updateProgress();
-    });
-  }, { passive: true });
-  updateProgress();
 
   // ---------- Surprise me: jump to a random topic ----------
   var surprise = document.getElementById('surprise-me');
