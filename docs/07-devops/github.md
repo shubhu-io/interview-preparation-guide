@@ -189,6 +189,7 @@ gh release list
 
 ### GitHub Actions CI/CD Example
 ```yaml
+{% raw %}
 name: CI/CD Pipeline
 
 on:
@@ -222,10 +223,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: echo "Deploying to production..."
+{% endraw %}
 ```
 
 ### Common GitHub Actions
 ```yaml
+{% raw %}
 # Checkout
 - uses: actions/checkout@v4
 
@@ -246,6 +249,7 @@ jobs:
   with:
     name: build
     path: dist/
+{% endraw %}
 ```
 
 ### Issue Template

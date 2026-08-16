@@ -3375,7 +3375,7 @@ Object-Oriented Programming is a fundamental paradigm for building maintainable,
 
 ## 34. Next Topic
 
-**[Software Engineering](../36-SoftwareEngineering/)** — Learn about software development lifecycle, methodologies (Agile, Scrum, Waterfall), version control, CI/CD, and more.
+**[Software Engineering](../36-Software-Engineering/)** — Learn about software development lifecycle, methodologies (Agile, Scrum, Waterfall), version control, CI/CD, and more.
 
 ---
 

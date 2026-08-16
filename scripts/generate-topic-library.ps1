@@ -205,6 +205,7 @@ nav_order: 14
 <div class="filter-bar">
   <input type="search" id="topic-filter" class="filter-input" placeholder="Filter topics by name or number..." aria-label="Filter topics" autocomplete="off" />
   <span class="filter-count" id="topic-count">$($built.Count) topics</span>
+  <button type="button" id="surprise-me" class="chip chip--surprise" title="Open a random topic">&#127922; Surprise me</button>
 </div>
 
 <div id="topic-library">

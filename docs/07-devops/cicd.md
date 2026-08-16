@@ -194,6 +194,7 @@ kubectl rollout undo deployment/myapp
 
 ### GitHub Actions Reusable Workflow
 ```yaml
+{% raw %}
 name: Reusable Deploy
 
 on:
@@ -215,4 +216,5 @@ jobs:
       - name: Deploy to ${{ inputs.environment }}
         run: |
           echo "Deploying ${{ inputs.image-tag }} to ${{ inputs.environment }}"
+{% endraw %}
 ```

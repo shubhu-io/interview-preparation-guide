@@ -1339,7 +1339,7 @@ This guide covers the essential data structures, algorithms, and problem-solving
 
 ## Next Topic
 
-→ [**System Design Interview Preparation**](../26-System-Design/)
+→ [**SQL Interview Preparation**](../26-SQL/)
 
 ---
 

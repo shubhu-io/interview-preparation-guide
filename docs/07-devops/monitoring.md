@@ -186,6 +186,7 @@ cat log.json | jq '.message'            # Parse JSON logs
 
 ### Alert Rules Example
 ```yaml
+{% raw %}
 groups:
   - name: application
     rules:
@@ -211,6 +212,7 @@ groups:
           severity: warning
         annotations:
           summary: "High latency for {{ $labels.service }}"
+{% endraw %}
 ```
 
 ### Docker Compose Monitoring Stack
