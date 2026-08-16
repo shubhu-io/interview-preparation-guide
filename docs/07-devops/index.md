@@ -48,3 +48,14 @@ The DevOps & Cloud category covers the essential practices, tools, and philosoph
 - **GCP**: Professional DevOps Engineer
 - **Kubernetes**: CKA, CKAD, CKS
 - **HashiCorp**: Terraform Associate
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/devops-ops/"><span class="row-icon">&#128736;</span><span class="row-body"><span class="row-title">DevOps & Operations</span><span class="row-desc">Docker, Kubernetes, Terraform, Jenkins, Git, CI/CD, and monitoring.</span></span><span class="row-meta">10 topics <span class="arrow">&#8594;</span></span></a>
+</div>

@@ -26,3 +26,14 @@ The Development category covers the core disciplines of building software — fr
 - **Backend Development** — Design scalable APIs, manage data, handle authentication, and build resilient systems
 - **Frontend Development** — Create interactive UIs with modern frameworks, optimize performance, and ensure accessibility
 - **Full Stack Development** — Bridge frontend and backend to deliver complete, deployable applications
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/development/"><span class="row-icon">&#129514;</span><span class="row-body"><span class="row-title">Development</span><span class="row-desc">Mobile, web, backend, frontend, and full-stack development.</span></span><span class="row-meta">5 topics <span class="arrow">&#8594;</span></span></a>
+</div>

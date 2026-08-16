@@ -23,3 +23,14 @@ This category covers the essential computer science topics that form the backbon
 | 8 | [Computer Architecture](computer-architecture) | ISA, pipelining, cache, virtual memory, branch prediction, and parallelism |
 | 9 | [Linux](linux) | File system, permissions, shell scripting, process management, and networking |
 | 10 | [Databases](databases) | SQL proficiency, schema design, indexing, query optimization, and distributed databases |
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/core-cs/"><span class="row-icon">&#9881;&#65039;</span><span class="row-body"><span class="row-title">Core Computer Science</span><span class="row-desc">OS, DBMS, networks, OOP, compilers, digital logic, and computer architecture.</span></span><span class="row-meta">11 topics <span class="arrow">&#8594;</span></span></a>
+</div>

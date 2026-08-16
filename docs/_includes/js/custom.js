@@ -40,18 +40,18 @@ jtd.onReady(function () {
   // ---------- Topic Library live filter ----------
   var input = document.getElementById('topic-filter');
   if (input) {
-    var cards = Array.prototype.slice.call(document.querySelectorAll('#topic-library .card'));
+    var items = Array.prototype.slice.call(document.querySelectorAll('#topic-library .row'));
     var count = document.getElementById('topic-count');
     var categoryHeadings = Array.prototype.slice.call(document.querySelectorAll('#topic-library h3'));
 
-    function topicVisible(card) {
-      return card.getAttribute('data-filter-hidden') !== '1';
+    function itemVisible(item) {
+      return item.getAttribute('data-filter-hidden') !== '1';
     }
 
     function sectionVisible(heading) {
-      var grid = heading.nextElementSibling;
-      if (!grid || grid.tagName !== 'DIV' || !grid.classList.contains('card-grid')) return true;
-      var anyVisible = Array.prototype.some.call(grid.querySelectorAll('.card'), topicVisible);
+      var list = heading.nextElementSibling;
+      if (!list || !list.classList || !list.classList.contains('topic-list')) return true;
+      var anyVisible = Array.prototype.some.call(list.querySelectorAll('.row'), itemVisible);
       return anyVisible;
     }
 
@@ -59,9 +59,9 @@ jtd.onReady(function () {
       var q = (input.value || '').trim().toLowerCase();
       var visible = 0;
 
-      cards.forEach(function (card) {
-        var match = q === '' || (card.textContent || '').toLowerCase().indexOf(q) !== -1;
-        card.setAttribute('data-filter-hidden', match ? '0' : '1');
+      items.forEach(function (item) {
+        var match = q === '' || (item.textContent || '').toLowerCase().indexOf(q) !== -1;
+        item.setAttribute('data-filter-hidden', match ? '0' : '1');
         if (match) visible++;
       });
 
@@ -70,12 +70,10 @@ jtd.onReady(function () {
       });
 
       if (count) {
-        count.textContent = q === '' ? visible + ' topics' : visible + ' of ' + cards.length + ' topics';
+        count.textContent = q === '' ? visible + ' topics' : visible + ' of ' + items.length + ' topics';
       }
     }
 
-    // Use attribute-based filtering so the layout keeps its grid shape
-    // even when cards are hidden (grid tracks remain intact).
     input.addEventListener('input', applyFilter);
     applyFilter();
   }
@@ -112,9 +110,14 @@ jtd.onReady(function () {
   var surprise = document.getElementById('surprise-me');
   if (surprise) {
     surprise.addEventListener('click', function () {
-      var links = Array.prototype.slice.call(document.querySelectorAll('#topic-library .card'));
+      var links = Array.prototype.slice.call(document.querySelectorAll('#topic-library .row'));
       links = links.filter(function (link) { return link.getAttribute('data-filter-hidden') !== '1'; });
-      if (!links.length) links = Array.prototype.slice.call(document.querySelectorAll('#topic-library .card'));
+      if (!links.length) {
+        links = Array.prototype.slice.call(document.querySelectorAll('#topic-library .row'));
+      }
+      if (!links.length) {
+        links = Array.prototype.slice.call(document.querySelectorAll('#surprise-links a'));
+      }
       if (!links.length) return;
       var target = links[Math.floor(Math.random() * links.length)];
       window.location.href = target.getAttribute('href');

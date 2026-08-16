@@ -41,3 +41,14 @@ The Preparation category covers everything you need beyond technical skills to s
 3. **Follow a revision schedule**: Daily, Weekly, Monthly, and Final Revision provide a structured approach
 4. **Target your preparation**: Use Company-wise Preparation and Previous Year Questions to focus on your target companies
 5. **Build your portfolio**: Projects and Certifications demonstrate your skills beyond interviews
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/preparation-tools/"><span class="row-icon">&#128218;</span><span class="row-body"><span class="row-title">Preparation & Tools</span><span class="row-desc">Cheat sheets, flash cards, mock interviews, and revision plans.</span></span><span class="row-meta">15 topics <span class="arrow">&#8594;</span></span></a>
+</div>

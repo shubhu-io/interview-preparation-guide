@@ -38,102 +38,86 @@ description: Comprehensive interview preparation guide covering aptitude, coding
 {: .section-title }
 Jump into any area of the guide. Each category contains deep, topic-by-topic study material.
 
-<div class="card-grid">
-  <a class="card" data-cat="getting-started" href="{{ '/01-getting-started/' | relative_url }}">
-    <div class="card-icon">&#128640;</div>
-    <div class="card-title">Getting Started</div>
-    <p class="card-desc">Resume, portfolio, LinkedIn, cover letters, job search strategy, career pages, job portals, agencies, and types of interviews.</p>
-    <div class="card-meta">Open category <span class="arrow">&#8594;</span></div>
+<div class="topic-list">
+  <a class="row" data-cat="getting-started" href="{{ '/01-getting-started/' | relative_url }}">
+    <span class="row-icon">&#128640;</span>
+    <span class="row-body"><span class="row-title">Getting Started</span><span class="row-desc">Resume, portfolio, LinkedIn, cover letters, job search strategy, career pages, job portals, agencies, and types of interviews.</span></span>
+    <span class="row-meta">Open category <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="resume-job-search" href="{{ '/14-topic-library/categories/resume-job-search/' | relative_url }}">
-    <div class="card-icon">&#128196;</div>
-    <div class="card-title">Resume &amp; Job Search</div>
-    <p class="card-desc">Resume &amp; ATS, company research, resume screening, portfolio, LinkedIn, and cover letters.</p>
-    <div class="card-meta">6 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="resume-job-search" href="{{ '/14-topic-library/categories/resume-job-search/' | relative_url }}">
+    <span class="row-icon">&#128196;</span>
+    <span class="row-body"><span class="row-title">Resume &amp; Job Search</span><span class="row-desc">Resume &amp; ATS, company research, resume screening, portfolio, LinkedIn, and cover letters.</span></span>
+    <span class="row-meta">6 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="assessments-aptitude" href="{{ '/14-topic-library/categories/assessments-aptitude/' | relative_url }}">
-    <div class="card-icon">&#129504;</div>
-    <div class="card-title">Assessments &amp; Aptitude</div>
-    <p class="card-desc">Online assessments, quantitative aptitude, logical reasoning, verbal ability, grammar, puzzles, and more.</p>
-    <div class="card-meta">10 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="assessments-aptitude" href="{{ '/14-topic-library/categories/assessments-aptitude/' | relative_url }}">
+    <span class="row-icon">&#129504;</span>
+    <span class="row-body"><span class="row-title">Assessments &amp; Aptitude</span><span class="row-desc">Online assessments, quantitative aptitude, logical reasoning, verbal ability, grammar, puzzles, and more.</span></span>
+    <span class="row-meta">10 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="coding-dsa" href="{{ '/14-topic-library/categories/coding-dsa/' | relative_url }}">
-    <div class="card-icon">&#128187;</div>
-    <div class="card-title">Coding &amp; DSA</div>
-    <p class="card-desc">Coding rounds, live coding, machine coding, whiteboard, debugging, code review, and DSA patterns.</p>
-    <div class="card-meta">9 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="coding-dsa" href="{{ '/14-topic-library/categories/coding-dsa/' | relative_url }}">
+    <span class="row-icon">&#128187;</span>
+    <span class="row-body"><span class="row-title">Coding &amp; DSA</span><span class="row-desc">Coding rounds, live coding, machine coding, whiteboard, debugging, code review, and DSA patterns.</span></span>
+    <span class="row-meta">9 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="programming-languages" href="{{ '/14-topic-library/categories/programming-languages/' | relative_url }}">
-    <div class="card-icon">&#128220;</div>
-    <div class="card-title">Programming Languages</div>
-    <p class="card-desc">SQL, Python, Java, JavaScript, and C++ — syntax, idioms, and interview questions per language.</p>
-    <div class="card-meta">5 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="programming-languages" href="{{ '/14-topic-library/categories/programming-languages/' | relative_url }}">
+    <span class="row-icon">&#128220;</span>
+    <span class="row-body"><span class="row-title">Programming Languages</span><span class="row-desc">SQL, Python, Java, JavaScript, and C++ — syntax, idioms, and interview questions per language.</span></span>
+    <span class="row-meta">5 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="core-cs" href="{{ '/14-topic-library/categories/core-cs/' | relative_url }}">
-    <div class="card-icon">&#9881;&#65039;</div>
-    <div class="card-title">Core Computer Science</div>
-    <p class="card-desc">OS, DBMS, computer networks, OOP, software engineering, compilers, digital logic, and architecture.</p>
-    <div class="card-meta">11 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="core-cs" href="{{ '/14-topic-library/categories/core-cs/' | relative_url }}">
+    <span class="row-icon">&#9881;&#65039;</span>
+    <span class="row-body"><span class="row-title">Core Computer Science</span><span class="row-desc">OS, DBMS, computer networks, OOP, software engineering, compilers, digital logic, and architecture.</span></span>
+    <span class="row-meta">11 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="system-design-cloud" href="{{ '/14-topic-library/categories/system-design-cloud/' | relative_url }}">
-    <div class="card-icon">&#127959;&#65039;</div>
-    <div class="card-title">System Design &amp; Cloud</div>
-    <p class="card-desc">HLD, LLD, API design, distributed systems, and cloud computing fundamentals.</p>
-    <div class="card-meta">7 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="system-design-cloud" href="{{ '/14-topic-library/categories/system-design-cloud/' | relative_url }}">
+    <span class="row-icon">&#127959;&#65039;</span>
+    <span class="row-body"><span class="row-title">System Design &amp; Cloud</span><span class="row-desc">HLD, LLD, API design, distributed systems, and cloud computing fundamentals.</span></span>
+    <span class="row-meta">7 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="devops-ops" href="{{ '/14-topic-library/categories/devops-ops/' | relative_url }}">
-    <div class="card-icon">&#128736;</div>
-    <div class="card-title">DevOps &amp; Operations</div>
-    <p class="card-desc">DevOps, Docker, Kubernetes, Terraform, Jenkins, Git, CI/CD, monitoring, and security.</p>
-    <div class="card-meta">10 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="devops-ops" href="{{ '/14-topic-library/categories/devops-ops/' | relative_url }}">
+    <span class="row-icon">&#128736;</span>
+    <span class="row-body"><span class="row-title">DevOps &amp; Operations</span><span class="row-desc">DevOps, Docker, Kubernetes, Terraform, Jenkins, Git, CI/CD, monitoring, and security.</span></span>
+    <span class="row-meta">10 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="ai-ml-genai" href="{{ '/14-topic-library/categories/ai-ml-genai/' | relative_url }}">
-    <div class="card-icon">&#129302;</div>
-    <div class="card-title">AI, ML &amp; Generative AI</div>
-    <p class="card-desc">Machine learning, deep learning, NLP, computer vision, LLMs, RAG, prompt engineering, and MLOps.</p>
-    <div class="card-meta">11 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="ai-ml-genai" href="{{ '/14-topic-library/categories/ai-ml-genai/' | relative_url }}">
+    <span class="row-icon">&#129302;</span>
+    <span class="row-body"><span class="row-title">AI, ML &amp; Generative AI</span><span class="row-desc">Machine learning, deep learning, NLP, computer vision, LLMs, RAG, prompt engineering, and MLOps.</span></span>
+    <span class="row-meta">11 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="data-analytics" href="{{ '/14-topic-library/categories/data-analytics/' | relative_url }}">
-    <div class="card-icon">&#128200;</div>
-    <div class="card-title">Data &amp; Analytics</div>
-    <p class="card-desc">Data analytics, Excel, Power BI, Tableau, and statistics.</p>
-    <div class="card-meta">5 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="data-analytics" href="{{ '/14-topic-library/categories/data-analytics/' | relative_url }}">
+    <span class="row-icon">&#128200;</span>
+    <span class="row-body"><span class="row-title">Data &amp; Analytics</span><span class="row-desc">Data analytics, Excel, Power BI, Tableau, and statistics.</span></span>
+    <span class="row-meta">5 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="security-testing" href="{{ '/14-topic-library/categories/security-testing/' | relative_url }}">
-    <div class="card-icon">&#128274;</div>
-    <div class="card-title">Security, Testing &amp; Networking</div>
-    <p class="card-desc">Cybersecurity, networking, SRE, QA automation, and software testing.</p>
-    <div class="card-meta">5 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="security-testing" href="{{ '/14-topic-library/categories/security-testing/' | relative_url }}">
+    <span class="row-icon">&#128274;</span>
+    <span class="row-body"><span class="row-title">Security, Testing &amp; Networking</span><span class="row-desc">Cybersecurity, networking, SRE, QA automation, and software testing.</span></span>
+    <span class="row-meta">5 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="development" href="{{ '/14-topic-library/categories/development/' | relative_url }}">
-    <div class="card-icon">&#128295;</div>
-    <div class="card-title">Development</div>
-    <p class="card-desc">Mobile, web, backend, frontend, and full-stack development.</p>
-    <div class="card-meta">5 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="development" href="{{ '/14-topic-library/categories/development/' | relative_url }}">
+    <span class="row-icon">&#128295;</span>
+    <span class="row-body"><span class="row-title">Development</span><span class="row-desc">Mobile, web, backend, frontend, and full-stack development.</span></span>
+    <span class="row-meta">5 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="interview-rounds" href="{{ '/14-topic-library/categories/interview-rounds/' | relative_url }}">
-    <div class="card-icon">&#127919;</div>
-    <div class="card-title">Interview Rounds</div>
-    <p class="card-desc">HR, behavioral, STAR method, leadership, managerial, bar raiser, and offer negotiation rounds.</p>
-    <div class="card-meta">21 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="interview-rounds" href="{{ '/14-topic-library/categories/interview-rounds/' | relative_url }}">
+    <span class="row-icon">&#127919;</span>
+    <span class="row-body"><span class="row-title">Interview Rounds</span><span class="row-desc">HR, behavioral, STAR method, leadership, managerial, bar raiser, and offer negotiation rounds.</span></span>
+    <span class="row-meta">21 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="preparation-tools" href="{{ '/14-topic-library/categories/preparation-tools/' | relative_url }}">
-    <div class="card-icon">&#128218;</div>
-    <div class="card-title">Preparation &amp; Tools</div>
-    <p class="card-desc">Mock interviews, cheat sheets, flash cards, revision plans, and company-wise preparation.</p>
-    <div class="card-meta">15 topics <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="preparation-tools" href="{{ '/14-topic-library/categories/preparation-tools/' | relative_url }}">
+    <span class="row-icon">&#128218;</span>
+    <span class="row-body"><span class="row-title">Preparation &amp; Tools</span><span class="row-desc">Mock interviews, cheat sheets, flash cards, revision plans, and company-wise preparation.</span></span>
+    <span class="row-meta">15 topics <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="universal-guide" href="{{ '/14-topic-library/categories/universal-guide/' | relative_url }}">
-    <div class="card-icon">&#127891;</div>
-    <div class="card-title">Universal Tech Interview Guide</div>
-    <p class="card-desc">38-domain master system for any technical interview, with an AI-powered mock interview prompt.</p>
-    <div class="card-meta">1 topic <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="universal-guide" href="{{ '/14-topic-library/categories/universal-guide/' | relative_url }}">
+    <span class="row-icon">&#127891;</span>
+    <span class="row-body"><span class="row-title">Universal Tech Interview Guide</span><span class="row-desc">38-domain master system for any technical interview, with an AI-powered mock interview prompt.</span></span>
+    <span class="row-meta">1 topic <span class="arrow">&#8594;</span></span>
   </a>
-  <a class="card" data-cat="specialized-domains" href="{{ '/13-specialized-domains/' | relative_url }}">
-    <div class="card-icon">&#129514;</div>
-    <div class="card-title">Specialized Domains</div>
-    <p class="card-desc">VLSI, SoC, embedded/IoT, drone/UAS, frontend, backend, AI/Data Science, and more deep-dive guides.</p>
-    <div class="card-meta">19 domains <span class="arrow">&#8594;</span></div>
+  <a class="row" data-cat="specialized-domains" href="{{ '/13-specialized-domains/' | relative_url }}">
+    <span class="row-icon">&#129514;</span>
+    <span class="row-body"><span class="row-title">Specialized Domains</span><span class="row-desc">VLSI, SoC, embedded/IoT, drone/UAS, frontend, backend, AI/Data Science, and more deep-dive guides.</span></span>
+    <span class="row-meta">19 domains <span class="arrow">&#8594;</span></span>
   </a>
 </div>
 

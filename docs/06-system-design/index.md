@@ -35,3 +35,14 @@ This category covers comprehensive system design concepts including high-level d
 - **Books**: "System Design Interview" by Alex Xu (Vol 1 & 2)
 - **Practice**: [SystemDesign.io](https://systemdesign.io), [ByteByteGo](https://bytebytego.com)
 - **Certifications**: AWS Solutions Architect, Azure Solutions Architect, GCP Professional Architect
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/system-design-cloud/"><span class="row-icon">&#127959;&#65039;</span><span class="row-body"><span class="row-title">System Design & Cloud</span><span class="row-desc">HLD, LLD, API design, distributed systems, and cloud computing.</span></span><span class="row-meta">7 topics <span class="arrow">&#8594;</span></span></a>
+</div>

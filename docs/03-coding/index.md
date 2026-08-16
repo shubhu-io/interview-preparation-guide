@@ -64,3 +64,14 @@ graph LR
 ---
 
 *Estimated total study time: 12-16 weeks (1-2 hours daily)*
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/coding-dsa/"><span class="row-icon">&#128187;</span><span class="row-body"><span class="row-title">Coding & DSA</span><span class="row-desc">Coding rounds, live coding, machine coding, debugging, and DSA patterns.</span></span><span class="row-meta">9 topics <span class="arrow">&#8594;</span></span></a>
+</div>

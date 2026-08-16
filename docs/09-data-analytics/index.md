@@ -36,3 +36,14 @@ This category covers essential data analysis tools, statistical methods, and tec
 - **Most interview-heavy**: Data Analytics, Statistics, Power BI, Tableau
 - **Growing demand**: Cybersecurity, SRE, QA Automation
 - **Foundation topics**: Excel, Networking, Statistics
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/data-analytics/"><span class="row-icon">&#128200;</span><span class="row-body"><span class="row-title">Data & Analytics</span><span class="row-desc">Analytics, Excel, Power BI, Tableau, and statistics.</span></span><span class="row-meta">5 topics <span class="arrow">&#8594;</span></span></a>
+</div>

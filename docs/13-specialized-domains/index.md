@@ -68,3 +68,15 @@ Deep-dive preparation guides for high-demand engineering and analytics specializ
 - [Interview Rounds](../11-interview-rounds/)
 - [Company Career Pages](../01-getting-started/career-pages)
 - [Job Search Strategy](../01-getting-started/job-search-strategy)
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/universal-guide/"><span class="row-icon">&#127891;</span><span class="row-body"><span class="row-title">Universal Tech Interview Guide</span><span class="row-desc">The 38-domain master system for any technical interview.</span></span><span class="row-meta">1 topics <span class="arrow">&#8594;</span></span></a>
+<a class="row" href="../14-topic-library/categories/development/"><span class="row-icon">&#129514;</span><span class="row-body"><span class="row-title">Development</span><span class="row-desc">Mobile, web, backend, frontend, and full-stack development.</span></span><span class="row-meta">5 topics <span class="arrow">&#8594;</span></span></a>
+</div>

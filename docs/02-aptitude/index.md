@@ -48,3 +48,14 @@ This section covers all aspects of aptitude testing and logical reasoning skills
 3. **Learn shortcuts** for common calculation patterns
 4. **Review mistakes** to avoid repetition
 5. **Stay consistent** - regular practice beats cramming
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/assessments-aptitude/"><span class="row-icon">&#129504;</span><span class="row-body"><span class="row-title">Assessments & Aptitude</span><span class="row-desc">Quantitative aptitude, logical reasoning, verbal ability, puzzles, and psychometric tests.</span></span><span class="row-meta">10 topics <span class="arrow">&#8594;</span></span></a>
+</div>

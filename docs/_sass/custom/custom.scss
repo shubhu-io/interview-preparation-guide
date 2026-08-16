@@ -220,6 +220,10 @@ $cat-accent-map: (
   text-align: center;
   overflow: hidden;
 
+  @media (max-width: 600px) {
+    padding: 2.25rem 0 1.5rem;
+  }
+
   .hero-glow {
     position: absolute;
     border-radius: 50%;
@@ -498,16 +502,93 @@ $cat-accent-map: (
   }
 }
 
+// ============================================================
+// Row list — card-free navigation (replaces card grids)
+// ============================================================
+.topic-list {
+  display: flex;
+  flex-direction: column;
+  margin: 1.25rem 0;
+  border-top: 1px solid $border-color;
+
+  .row {
+    --cat-accent: $link-color;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 0;
+    padding: 0.85rem 0.75rem;
+    color: $body-text-color;
+    text-decoration: none;
+    border-bottom: 1px solid $border-color;
+    transition: background 0.15s ease, padding-left 0.15s ease;
+
+    &:hover {
+      background: color-mix(in srgb, var(--cat-accent) 7%, transparent);
+      padding-left: 1rem;
+
+      .row-meta .arrow {
+        transform: translateX(3px);
+      }
+    }
+
+    .row-icon {
+      flex: 0 0 auto;
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      line-height: 1;
+      border-radius: 10px;
+      background: color-mix(in srgb, var(--cat-accent) 12%, transparent);
+      border: 1px solid color-mix(in srgb, var(--cat-accent) 25%, transparent);
+    }
+
+    .row-body {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row-title {
+      font-weight: 700;
+      color: $body-heading-color;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .row-desc {
+      margin-top: 0.15rem;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      opacity: 0.85;
+    }
+
+    .row-meta {
+      margin-left: auto;
+      white-space: nowrap;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--cat-accent);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+  }
+}
+
 // ---------- Card grids ----------
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 1.1rem;
   margin: 1.5rem 0;
 
   // home page category cards
   &.cols-3 {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
   }
 }
 
@@ -636,14 +717,25 @@ $cat-accent-map: (
   }
 
   @media (max-width: 600px) {
+    align-items: stretch;
+
+    .filter-input {
+      flex: 1 1 100%;
+      min-width: 0;
+    }
+
     .filter-count {
-      width: 100%;
+      width: auto;
+    }
+
+    .chip--surprise {
+      margin-left: auto;
     }
   }
 }
 
-// Filtered-out cards are kept in the DOM but hidden from view.
-#topic-library .card[data-filter-hidden="1"] {
+// Filtered-out rows are kept in the DOM but hidden from view.
+#topic-library .row[data-filter-hidden="1"] {
   display: none;
 }
 
@@ -793,5 +885,75 @@ $cat-accent-map: (
   .hero .hero-glow,
   .pulse-dot {
     animation: none !important;
+  }
+}
+
+// ============================================================
+// Responsive — fit & stretch across desktop / tablet / mobile
+// ============================================================
+
+// Guard against any intrinsic content blowing out the layout
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+// Wide mermaid diagrams scroll horizontally instead of pushing the layout
+pre.language-mermaid {
+  overflow-x: auto;
+}
+
+// Inline code with long unbroken strings wraps instead of overflowing
+code.highlighter-rouge {
+  overflow-wrap: anywhere;
+}
+
+// Tablet (sidebar collapses to an overlay at 800px)
+@media (max-width: 800px) {
+  .main-content-wrap,
+  .main-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .stats-row {
+    gap: 0.75rem;
+  }
+}
+
+// Small phones (≤480px)
+@media (max-width: 480px) {
+  .stat-value {
+    font-size: 1.55rem;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .chip {
+    font-size: 0.78rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .page-title {
+    font-size: 1.8rem;
+  }
+
+  h1,
+  h2 {
+    overflow-wrap: anywhere;
+  }
+
+  #back-to-top {
+    right: 0.9rem;
+    bottom: 0.9rem;
   }
 }

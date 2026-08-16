@@ -52,3 +52,14 @@ The AI & Machine Learning category covers 11 essential topics spanning artificia
 9. **RAG** → Knowledge-grounded generation
 10. **AI Agents** → Autonomous systems
 11. **MLOps** → Production deployment and monitoring
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/ai-ml-genai/"><span class="row-icon">&#129302;</span><span class="row-body"><span class="row-title">AI, ML & Generative AI</span><span class="row-desc">Machine learning, deep learning, NLP, LLMs, RAG, and MLOps.</span></span><span class="row-meta">11 topics <span class="arrow">&#8594;</span></span></a>
+</div>

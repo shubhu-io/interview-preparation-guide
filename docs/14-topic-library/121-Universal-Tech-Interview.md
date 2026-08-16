@@ -20,7 +20,7 @@ permalink: /14-topic-library/121-Universal-Tech-Interview/
 
 ## Quick Start
 
-1. Read the [Master Prompt](Master-Prompt.md).
+1. Read the [Master Prompt](../../121-Universal-Tech-Interview/master-prompt/).
 2. Copy-paste the entire prompt into your favorite AI (ChatGPT, Claude, Gemini).
 3. Say **START** to begin a diagnostic interview, or provide your **Job Description**, **Resume**, or **Project** and it will adapt.
 4. Study each domain folder here for structured notes, sample questions, and links to the repo's detailed folders.
@@ -118,7 +118,7 @@ Week 12:   Mock interviews via Master Prompt + behavioral
 
 ## Related
 
-- [Master Prompt](Master-Prompt.md)
+- [Master Prompt](../../121-Universal-Tech-Interview/master-prompt/)
 - [Specialized Domains](../13-specialized-domains/)
 - [Interview Rounds](../11-interview-rounds/)
 - [Main Repository README](/)

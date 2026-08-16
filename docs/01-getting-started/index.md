@@ -62,3 +62,14 @@ No prior knowledge is required. Start with any topic that addresses your most im
 13. **LinkedIn** — Optimize your online professional presence
 14. **Portfolio** — Showcase concrete evidence of your skills
 15. **Cover Letter** — Polish your application with compelling narratives
+
+---
+
+<!-- related-topics -->
+## Related Topics
+
+Dive straight into the matching topic-library material for this section.
+
+<div class="topic-list">
+<a class="row" href="../14-topic-library/categories/resume-job-search/"><span class="row-icon">&#128196;</span><span class="row-body"><span class="row-title">Resume & Job Search</span><span class="row-desc">Resume & ATS, company research, screening, portfolio, LinkedIn, and cover letters.</span></span><span class="row-meta">6 topics <span class="arrow">&#8594;</span></span></a>
+</div>
